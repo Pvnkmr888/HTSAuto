@@ -1,0 +1,6 @@
+[PASSED] :: 2017-08-28:18:09:22 :: <b>[PASS]</b> Click on Element : Successfully click on ID:com.android.packageinstaller:id/permission_allow_button
+[PASSED] :: 2017-08-28:18:09:31 :: <b>[PASS]</b> Click on Element : Successfully click on WebServerURL
+[PASSED] :: 2017-08-28:18:09:32 :: <b>[PASS]</b> Click on Element : Successfully click on XPATH://*[@text='Chil Das(Test)']
+[PASSED] :: 2017-08-28:18:09:32 :: <b>[PASS]</b> [Set App Environment ] :  App environment set to Chil Das(Test)
+[PASSED] :: 2017-08-28:18:09:33 :: <b>[PASS]</b>  navigate back successfully
+[PASSED] :: 2017-08-28:18:09:33 :: <b>[PASS]</b> [Set App Environment ] : Navigating back to Login screen

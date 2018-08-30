@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><test name="motionDetection_retainZoneSelected">
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 12:52:27.962">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on ID:com.android.packageinstaller:id/permission_allow_button</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:52:37.936">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on WebServerURL</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:52:39.323">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on XPATH://*[@text='Chil Das(Test)']</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:52:39.323">&lt;b&gt;[PASS]&lt;/b&gt; [Set App Environment ] :  App environment set to Chil Das(Test)</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:52:40.157">&lt;b&gt;[PASS]&lt;/b&gt;  navigate back successfully</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:52:40.158">&lt;b&gt;[PASS]&lt;/b&gt; [Set App Environment ] : Navigating back to Login screen</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:52:41.218">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on LoginButton</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:52:48.925">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Email Address set to - autotest2@grr.la</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:52:56.076">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Password set to - Password1</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:52:56.700">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on LoginButton</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:53:01.916">&lt;b&gt;[PASS]&lt;/b&gt; Login to Lyric : Successfully navigated to HomeScreen</msg>
+<status critical="yes" endtime="20170831 12:53:01.916" starttime="20170831 12:52:06.964" status="PASS"/>
+</kw>
+<kw name="When  : user clicks on &quot;HAMBURGER MENU&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 12:53:09.747">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on GlobalDrawerButton</msg>
+<status critical="yes" endtime="20170831 12:53:09.748" starttime="20170831 12:53:01.963" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;DAS DEVICE&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 12:53:10.682">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on xpath://*[@text='My Apollo']</msg>
+<status critical="yes" endtime="20170831 12:53:10.682" starttime="20170831 12:53:09.755" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;BASE STATION SETTINGS&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 12:53:11.206">&lt;b&gt;[PASS]&lt;/b&gt; swipe up to focus on Base station menu was successfull</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:53:12.319">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on BaseStation_Option</msg>
+<status critical="yes" endtime="20170831 12:53:12.319" starttime="20170831 12:53:10.697" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;CAMERA SETTINGS&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 12:53:13.336">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on Base_StationCamera</msg>
+<status critical="yes" endtime="20170831 12:53:13.336" starttime="20170831 12:53:12.326" status="PASS"/>
+</kw>
+<kw name="And  : user taps on &quot;MOTION DETECTION&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 12:53:15.032">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on MotionDetectionLabel</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:53:15.032">&lt;b&gt;[PASS]&lt;/b&gt; Tapped on Motion Detection</msg>
+<status critical="yes" endtime="20170831 12:53:15.032" starttime="20170831 12:53:13.346" status="PASS"/>
+</kw>
+<kw name="When  : user taps on &quot;ZONE3&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 12:53:23.358">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on MotionDetection_Zone3</msg>
+<status critical="yes" endtime="20170831 12:53:23.358" starttime="20170831 12:53:15.041" status="PASS"/>
+</kw>
+<kw name="And  : user taps on &quot;ENABLE DETECTION ZONE&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 12:53:24.235">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on EnabledDetectionZone</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:53:24.235">&lt;b&gt;[PASS]&lt;/b&gt; Clicked on Enable detection zone</msg>
+<status critical="yes" endtime="20170831 12:53:24.236" starttime="20170831 12:53:23.367" status="PASS"/>
+</kw>
+<kw name="And  : verify &quot;ENABLE DETECTION ZONE&quot; is &quot;selected&quot;" type="kw">
+<kw name="And  : verify &quot;ENABLE DETECTION ZONE&quot; is &quot;selected&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 12:53:24.953">&lt;b&gt;[FAIL]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'verify "ENABLE DETECTION ZONE" is "selected"'. Error Occured - null</msg>
+<status critical="yes" endtime="20170831 12:53:24.956" starttime="20170831 12:53:24.952" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;ENABLE DETECTION ZONE&quot; is &quot;selected&quot;" type="kw">
+<kw name="Then  : verify &quot;ENABLE DETECTION ZONE&quot; is &quot;selected&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 12:53:25.072">&lt;b&gt;[FAIL]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'verify "ENABLE DETECTION ZONE" is "selected"'. Error Occured - null</msg>
+<status critical="yes" endtime="20170831 12:53:25.073" starttime="20170831 12:53:25.072" status="FAIL"/>
+</kw>
+</kw>
+</kw>
+<doc>Execute Keyword : Not able to execute Step - 'verify "ENABLE DETECTION ZONE" is "selected"'. Error Occured - null</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170831 12:53:25.085" starttime="20170831 12:52:06.946" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170831 12:53:25.085" starttime="20170831 12:52:06.946" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>

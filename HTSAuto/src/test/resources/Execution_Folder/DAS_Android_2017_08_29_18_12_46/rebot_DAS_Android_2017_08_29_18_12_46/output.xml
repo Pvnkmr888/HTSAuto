@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><robot>
+<suite id="TS_Lyric_001" name="DAS_Android">
+<status critical="yes" endtime="20170829 18:12:47.989" starttime="20170829 18:12:47.969" status="FAIL"/>
+</suite>
+</robot>

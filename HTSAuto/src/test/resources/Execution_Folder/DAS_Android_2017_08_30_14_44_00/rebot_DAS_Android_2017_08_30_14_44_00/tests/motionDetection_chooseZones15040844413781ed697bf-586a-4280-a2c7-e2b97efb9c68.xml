@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><test name="motionDetection_chooseZones">
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 14:45:12.119">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:OK</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:45:13.751">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Allow</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:45:33.646">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on xpath://XCUIElementTypeTextField[contains(@value,'https')]</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:45:35.128">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Return</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:45:36.192">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Chil Das(Test)</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:45:37.046">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Done</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:45:38.433">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on LoginButton</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:45:40.544">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Email Address set to - autotest2@grr.la</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:45:42.090">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Password set to - Password1</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:45:43.048">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on NAME:Login_Button</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:45:48.181">&lt;b&gt;[PASS]&lt;/b&gt; Login to Lyric : Successfully navigated to HomeScreen</msg>
+<status critical="yes" endtime="20170830 14:45:48.182" starttime="20170830 14:44:01.492" status="PASS"/>
+</kw>
+<kw name="When  : user clicks on &quot;HAMBURGER MENU&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 14:45:56.043">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on GlobalDrawerButton</msg>
+<status critical="yes" endtime="20170830 14:45:56.044" starttime="20170830 14:45:48.225" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;DAS DEVICE&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 14:45:58.097">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:My Apollo</msg>
+<status critical="yes" endtime="20170830 14:45:58.098" starttime="20170830 14:45:56.050" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;BASE STATION SETTINGS&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 14:46:03.297">&lt;b&gt;[PASS]&lt;/b&gt; swipe up to focus on Base station menu was successfull</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:46:04.164">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on BaseStation_Option</msg>
+<status critical="yes" endtime="20170830 14:46:04.164" starttime="20170830 14:45:58.105" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;CAMERA SETTINGS&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 14:46:05.208">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on Base_StationCamera</msg>
+<status critical="yes" endtime="20170830 14:46:05.208" starttime="20170830 14:46:04.171" status="PASS"/>
+</kw>
+<kw name="And  : user taps on &quot;MOTION DETECTION&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 14:46:07.650">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on MotionDetectionLabel</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:46:07.650">&lt;b&gt;[PASS]&lt;/b&gt; Tapped on Motion Detection</msg>
+<status critical="yes" endtime="20170830 14:46:07.650" starttime="20170830 14:46:05.219" status="PASS"/>
+</kw>
+<kw name="When  : user taps on &quot;ZONE1&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 14:46:17.695">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on MotionDetection_Zone1</msg>
+<status critical="yes" endtime="20170830 14:46:17.695" starttime="20170830 14:46:07.662" status="PASS"/>
+</kw>
+<kw name="Then  : verify &quot;ZONE1&quot; is &quot;selected&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 14:46:46.396">&lt;b&gt;[FAIL]&lt;/b&gt; ZONE1 is not selected</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:46:46.396">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_30_14_44_01/screenshot4248818480428026646.png"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_30_14_44_01/screenshot4248818480428026646.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<status critical="yes" endtime="20170830 14:46:52.970" starttime="20170830 14:46:17.703" status="FAIL"/>
+</kw>
+<tags>
+<tag>TestName::motionDetection_chooseZones</tag>
+<tag>Group::motionDetection_chooseZones</tag>
+<tag>SolutionCategory::LyricRefactor</tag>
+<tag>DeviceType::Local-Simulator</tag>
+<tag>TargetName::iPhone 6</tag>
+<tag>DeviceSize::IOS_Medium</tag>
+<tag>OperatingSystem::IOS-9.3</tag>
+<tag>CloudEnvironment::Chil Das(Test)</tag>
+<tag>AccessoryName::autotest2@grr.la</tag>
+<tag>BuildNumber:: IOS - LyricLocal</tag>
+<tag>TestReportURL::http://10.79.42.121:8080/results/DAS_Android_2017_08_30_14_44_00/rebot/report.html#tags?Group::motionDetection_chooseZones</tag>
+</tags>
+<status critical="yes" endtime="20170830 14:46:52.988" starttime="20170830 14:44:01.474" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170830 14:46:52.988" starttime="20170830 14:44:01.474" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>

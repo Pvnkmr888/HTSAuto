@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><test name="motionDetection_chooseZones">
+<kw name="Given  : user is &quot;Das Device Settings&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 18:17:01.686">&lt;b&gt;[FAIL]&lt;/b&gt; Given  - 'user is "Das Device Settings"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^user is (.*) Device (.*)$")&lt;/p&gt;&lt;/p&gt;</msg>
+<status critical="yes" endtime="20170829 18:17:01.689" starttime="20170829 18:17:01.685" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;ZONE1&quot; is &quot;selected&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 18:17:01.730">&lt;b&gt;[FAIL]&lt;/b&gt; Then  - 'verify "ZONE1" is "selected"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^verify (.*) is (.*)$")&lt;/p&gt;&lt;/p&gt;</msg>
+<status critical="yes" endtime="20170829 18:17:01.730" starttime="20170829 18:17:01.729" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;ZONE2&quot; is &quot;selected&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 18:17:01.740">&lt;b&gt;[FAIL]&lt;/b&gt; Then  - 'verify "ZONE2" is "selected"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^verify (.*) is (.*)$")&lt;/p&gt;&lt;/p&gt;</msg>
+<status critical="yes" endtime="20170829 18:17:01.741" starttime="20170829 18:17:01.740" status="FAIL"/>
+</kw>
+<doc>Given  - 'user is "Das Device Settings"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^user is (.*) Device (.*)$")&lt;/p&gt;&lt;/p&gt;</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170829 18:17:01.752" starttime="20170829 18:17:01.680" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170829 18:17:01.752" starttime="20170829 18:17:01.680" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>

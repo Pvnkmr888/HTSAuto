@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><robot>
+<suite id="TS_Lyric_001" name="DAS_Android">
+<test name="As a user I want to verify that all Camera setting options">
+<kw name="Given  : &quot;Home Mode&quot; as precondition" type="kw">
+<kw name="Given  : &quot;Home Mode&quot; as precondition" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:54:21.558">&lt;b&gt;[FAIL]&lt;/b&gt; Execute Keyword : Not able to execute Step - '"Home Mode" as precondition'. Error Occured - null</msg>
+<status critical="yes" endtime="20170824 11:54:21.562" starttime="20170824 11:54:21.555" status="FAIL"/>
+</kw>
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:54:21.876">&lt;b&gt;[FAIL]&lt;/b&gt; Instantiate Driver : Error occured. Error message - Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vijaydesmacbook.global.ds.honeywell.com', ip: '10.77.10.226', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_51'
+Driver info: driver.version: AndroidDriver</msg>
+<msg html="yes" level="INFO" timestamp="20170824 11:54:21.879">&lt;b&gt;[FAIL]&lt;/b&gt; Set App Environment : Failed to open secret. Error Message : null</msg>
+<msg html="yes" level="INFO" timestamp="20170824 11:54:21.880">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Unable to navigate to homepage. Could not find notification icon on homepage</msg>
+<status critical="yes" endtime="20170824 11:54:21.880" starttime="20170824 11:54:21.615" status="FAIL"/>
+</kw>
+<kw name="Then  : verify the display of following:" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:54:21.884">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:54:21.884" starttime="20170824 11:54:21.884" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;CAMERA MICROPHONE&quot; is enabled" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:54:21.888">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:54:21.888" starttime="20170824 11:54:21.888" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;CAMERA MICROPHONE&quot; is disabled" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:54:21.891">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:54:21.891" starttime="20170824 11:54:21.891" status="FAIL"/>
+</kw>
+</kw>
+<doc>Execute Keyword : Not able to execute Step - '"Home Mode" as precondition'. Error Occured - null</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170824 11:54:21.895" starttime="20170824 11:54:16.968" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170824 11:54:21.896" starttime="20170824 11:54:16.968" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="As a user I want to verify the Video Quality setting menu options. - #3">
+<kw name="Given  : &quot;Home Mode&quot; as precondition" type="kw">
+<kw name="Given  : &quot;Home Mode&quot; as precondition" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:54:23.832">&lt;b&gt;[FAIL]&lt;/b&gt; Execute Keyword : Not able to execute Step - '"Home Mode" as precondition'. Error Occured - null</msg>
+<status critical="yes" endtime="20170824 11:54:23.832" starttime="20170824 11:54:23.832" status="FAIL"/>
+</kw>
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:54:23.840">&lt;b&gt;[FAIL]&lt;/b&gt; Instantiate Driver : Error occured. Error message - Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vijaydesmacbook.global.ds.honeywell.com', ip: '10.77.10.226', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_51'
+Driver info: driver.version: AndroidDriver</msg>
+<msg html="yes" level="INFO" timestamp="20170824 11:54:23.841">&lt;b&gt;[FAIL]&lt;/b&gt; Set App Environment : Failed to open secret. Error Message : null</msg>
+<msg html="yes" level="INFO" timestamp="20170824 11:54:23.842">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Unable to navigate to homepage. Could not find notification icon on homepage</msg>
+<status critical="yes" endtime="20170824 11:54:23.842" starttime="20170824 11:54:23.835" status="FAIL"/>
+</kw>
+<kw name="Then  : verify the display of following:" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:54:23.845">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:54:23.845" starttime="20170824 11:54:23.844" status="FAIL"/>
+</kw>
+<kw name="And  : user taps on &quot;VIDEO QUALITY LOW&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:54:23.847">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:54:23.847" starttime="20170824 11:54:23.847" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;VIDEO QUALITY LOW&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:54:23.851">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:54:23.851" starttime="20170824 11:54:23.851" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;VIDEO QUALITY HIGH&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:54:23.854">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:54:23.854" starttime="20170824 11:54:23.854" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;VIDEO QUALITY AUTO&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:54:23.856">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:54:23.857" starttime="20170824 11:54:23.856" status="FAIL"/>
+</kw>
+</kw>
+<doc>Execute Keyword : Not able to execute Step - '"Home Mode" as precondition'. Error Occured - null</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170824 11:54:23.858" starttime="20170824 11:54:21.900" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170824 11:54:23.859" starttime="20170824 11:54:21.900" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="CameraNightVision_Menu - #2">
+<kw name="Given  : &quot;Home Mode&quot; as precondition" type="kw">
+<kw name="Given  : &quot;Home Mode&quot; as precondition" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:54:25.922">&lt;b&gt;[FAIL]&lt;/b&gt; Execute Keyword : Not able to execute Step - '"Home Mode" as precondition'. Error Occured - null</msg>
+<status critical="yes" endtime="20170824 11:54:25.922" starttime="20170824 11:54:25.921" status="FAIL"/>
+</kw>
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:54:25.929">&lt;b&gt;[FAIL]&lt;/b&gt; Instantiate Driver : Error occured. Error message - Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vijaydesmacbook.global.ds.honeywell.com', ip: '10.77.10.226', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_51'
+Driver info: driver.version: AndroidDriver</msg>
+<msg html="yes" level="INFO" timestamp="20170824 11:54:25.930">&lt;b&gt;[FAIL]&lt;/b&gt; Set App Environment : Failed to open secret. Error Message : null</msg>
+<msg html="yes" level="INFO" timestamp="20170824 11:54:25.930">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Unable to navigate to homepage. Could not find notification icon on homepage</msg>
+<status critical="yes" endtime="20170824 11:54:25.930" starttime="20170824 11:54:25.924" status="FAIL"/>
+</kw>
+<kw name="Then  : verify the display of following:" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:54:25.933">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:54:25.933" starttime="20170824 11:54:25.933" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;NIGHT VISION ON&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:54:25.935">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:54:25.935" starttime="20170824 11:54:25.935" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;NIGHT VISION OFF&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:54:25.938">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:54:25.938" starttime="20170824 11:54:25.938" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;NIGHT VISION AUTO&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:54:25.940">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:54:25.940" starttime="20170824 11:54:25.940" status="FAIL"/>
+</kw>
+</kw>
+<doc>Execute Keyword : Not able to execute Step - '"Home Mode" as precondition'. Error Occured - null</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170824 11:54:25.942" starttime="20170824 11:54:23.862" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170824 11:54:25.943" starttime="20170824 11:54:23.862" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<status critical="yes" endtime="20170824 11:54:26.064" starttime="20170824 11:54:26.007" status="FAIL"/>
+</suite>
+</robot>

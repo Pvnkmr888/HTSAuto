@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><robot>
+<suite id="TS_Lyric_001" name="DAS_Android">
+<test name="As a user I want to verify that all Camera setting options">
+<kw name="Given  : &quot;Home Mode&quot; as precondition" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 17:25:42.709">&lt;b&gt;[PASS]&lt;/b&gt; Base station is set to home</msg>
+<status critical="yes" endtime="20170824 17:25:42.711" starttime="20170824 17:25:37.377" status="PASS"/>
+</kw>
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 17:26:12.407">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:OK</msg>
+<msg html="yes" level="INFO" timestamp="20170824 17:26:14.238">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Allow</msg>
+<msg html="yes" level="INFO" timestamp="20170824 17:26:49.113">&lt;b&gt;[FAIL]&lt;/b&gt; Failed to locate the app environment text field</msg>
+<msg html="yes" level="INFO" timestamp="20170824 17:26:49.113">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/vijaydeepakTESTCASENAME_2017_08_24_17_25_37/screenshot133438511800942175.png"&gt;&lt;img src="../screenShots/vijaydeepakTESTCASENAME_2017_08_24_17_25_37/screenshot133438511800942175.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170824 17:26:50.744">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on NAME:Done</msg>
+<msg html="yes" level="INFO" timestamp="20170824 17:26:51.176">&lt;b&gt;[FAIL]&lt;/b&gt;  Set Value to Element : EmailAddress Unable to Set Value on element - Element not found.</msg>
+<msg html="yes" level="INFO" timestamp="20170824 17:26:51.176">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Not able to set Email Address.</msg>
+<msg html="yes" level="INFO" timestamp="20170824 17:26:51.176">&lt;b&gt;[FAIL]&lt;/b&gt;  Set Value to Element : Password Unable to Set Value on element - Element not found.</msg>
+<msg html="yes" level="INFO" timestamp="20170824 17:26:51.176">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Not able to set Password.</msg>
+<msg html="yes" level="INFO" timestamp="20170824 17:26:51.176">&lt;b&gt;[FAIL]&lt;/b&gt; Click on Element : Element not found NAME:Login_Button</msg>
+<msg html="yes" level="INFO" timestamp="20170824 17:26:51.177">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Unable to navigate to homepage. Could not find notification icon on homepage</msg>
+<status critical="yes" endtime="20170824 17:26:51.177" starttime="20170824 17:25:42.749" status="FAIL"/>
+</kw>
+<kw name="Then  : verify the display of following:" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 17:26:51.182">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 17:26:51.182" starttime="20170824 17:26:51.181" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;CAMERA MICROPHONE&quot; is enabled" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 17:26:51.185">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 17:26:51.185" starttime="20170824 17:26:51.185" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;CAMERA MICROPHONE&quot; is disabled" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 17:26:51.189">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 17:26:51.189" starttime="20170824 17:26:51.189" status="FAIL"/>
+</kw>
+<tags>
+<tag>TestName::As a user I want to verify that all Camera setting options</tag>
+<tag>Group::dasBasestationCameraSettingsAndMicrophone</tag>
+<tag>SolutionCategory::LyricRefactor</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::c85d7cb996a05d26abb89c93df86d62af5486f1f</tag>
+<tag>DeviceSize::IOS_Medium</tag>
+<tag>OperatingSystem::IOS-10.3.3</tag>
+<tag>CloudEnvironment::Chil Das(Test)</tag>
+<tag>AccessoryName::testaccount@mailinator.com</tag>
+<tag>BuildNumber:: IOS - 4</tag>
+<tag>TestReportURL::http://10.79.42.121:8080/results/DAS_Android_2017_08_24_17_25_36/rebot/report.html#tags?Group::As a user I want to verify that all Camera setting options</tag>
+</tags>
+<status critical="yes" endtime="20170824 17:26:51.195" starttime="20170824 17:25:37.371" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170824 17:26:51.196" starttime="20170824 17:25:37.371" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<status critical="yes" endtime="20170824 17:26:51.287" starttime="20170824 17:26:51.254" status="FAIL"/>
+</suite>
+</robot>

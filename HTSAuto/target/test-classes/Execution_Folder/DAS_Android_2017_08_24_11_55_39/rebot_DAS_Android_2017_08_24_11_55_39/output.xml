@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><robot>
+<suite id="TS_Lyric_001" name="DAS_Android">
+<test name="As a user I want to verify that all Camera setting options">
+<kw name="Given  : &quot;Home Mode&quot; as precondition" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.739">&lt;b&gt;[FAIL]&lt;/b&gt; Get Location Information  : Unable to connect to CHAPI.</msg>
+<status critical="yes" endtime="20170824 11:55:40.742" starttime="20170824 11:55:40.648" status="FAIL"/>
+</kw>
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.805">&lt;b&gt;[FAIL]&lt;/b&gt; Perfecto Private : Perfecto_Private credentials not provided.</msg>
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.805">&lt;b&gt;[FAIL]&lt;/b&gt; Error Occured while launching application. Error message - Perfecto Desired Capability : Private Credentials not provided.</msg>
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.809">&lt;b&gt;[FAIL]&lt;/b&gt; Set App Environment : Failed to open secret. Error Message : null</msg>
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.810">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Unable to navigate to homepage. Could not find notification icon on homepage</msg>
+<status critical="yes" endtime="20170824 11:55:40.810" starttime="20170824 11:55:40.783" status="FAIL"/>
+</kw>
+<kw name="Then  : verify the display of following:" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.814">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:55:40.814" starttime="20170824 11:55:40.814" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;CAMERA MICROPHONE&quot; is enabled" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.819">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:55:40.819" starttime="20170824 11:55:40.819" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;CAMERA MICROPHONE&quot; is disabled" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.824">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:55:40.825" starttime="20170824 11:55:40.824" status="FAIL"/>
+</kw>
+<doc>Perfecto Private : Perfecto_Private credentials not provided.</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170824 11:55:40.841" starttime="20170824 11:55:40.573" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170824 11:55:40.842" starttime="20170824 11:55:40.573" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Perfecto User ID : &lt;/th&gt;&lt;td colspan='2'&gt;No Account provided&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Perfecto Result URL : &lt;/th&gt;&lt;td colspan='2'&gt;&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="As a user I want to verify the Video Quality setting menu options. - #3">
+<kw name="Given  : &quot;Home Mode&quot; as precondition" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.858">&lt;b&gt;[FAIL]&lt;/b&gt; Get Location Information  : Unable to connect to CHAPI.</msg>
+<status critical="yes" endtime="20170824 11:55:40.859" starttime="20170824 11:55:40.858" status="FAIL"/>
+</kw>
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.864">&lt;b&gt;[FAIL]&lt;/b&gt; Perfecto Private : Perfecto_Private credentials not provided.</msg>
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.864">&lt;b&gt;[FAIL]&lt;/b&gt; Error Occured while launching application. Error message - Perfecto Desired Capability : Private Credentials not provided.</msg>
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.866">&lt;b&gt;[FAIL]&lt;/b&gt; Set App Environment : Failed to open secret. Error Message : null</msg>
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.866">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Unable to navigate to homepage. Could not find notification icon on homepage</msg>
+<status critical="yes" endtime="20170824 11:55:40.867" starttime="20170824 11:55:40.863" status="FAIL"/>
+</kw>
+<kw name="Then  : verify the display of following:" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.870">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:55:40.870" starttime="20170824 11:55:40.870" status="FAIL"/>
+</kw>
+<kw name="And  : user taps on &quot;VIDEO QUALITY LOW&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.873">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:55:40.873" starttime="20170824 11:55:40.873" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;VIDEO QUALITY LOW&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.876">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:55:40.876" starttime="20170824 11:55:40.875" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;VIDEO QUALITY HIGH&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.879">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:55:40.879" starttime="20170824 11:55:40.879" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;VIDEO QUALITY AUTO&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.883">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:55:40.883" starttime="20170824 11:55:40.883" status="FAIL"/>
+</kw>
+<doc>Perfecto Private : Perfecto_Private credentials not provided.</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170824 11:55:40.895" starttime="20170824 11:55:40.847" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170824 11:55:40.895" starttime="20170824 11:55:40.847" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Perfecto User ID : &lt;/th&gt;&lt;td colspan='2'&gt;No Account provided&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Perfecto Result URL : &lt;/th&gt;&lt;td colspan='2'&gt;&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="CameraNightVision_Menu - #2">
+<kw name="Given  : &quot;Home Mode&quot; as precondition" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.915">&lt;b&gt;[FAIL]&lt;/b&gt; Get Location Information  : Unable to connect to CHAPI.</msg>
+<status critical="yes" endtime="20170824 11:55:40.915" starttime="20170824 11:55:40.915" status="FAIL"/>
+</kw>
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.919">&lt;b&gt;[FAIL]&lt;/b&gt; Perfecto Private : Perfecto_Private credentials not provided.</msg>
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.920">&lt;b&gt;[FAIL]&lt;/b&gt; Error Occured while launching application. Error message - Perfecto Desired Capability : Private Credentials not provided.</msg>
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.922">&lt;b&gt;[FAIL]&lt;/b&gt; Set App Environment : Failed to open secret. Error Message : null</msg>
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.922">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Unable to navigate to homepage. Could not find notification icon on homepage</msg>
+<status critical="yes" endtime="20170824 11:55:40.922" starttime="20170824 11:55:40.918" status="FAIL"/>
+</kw>
+<kw name="Then  : verify the display of following:" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.925">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:55:40.926" starttime="20170824 11:55:40.925" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;NIGHT VISION ON&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.929">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:55:40.929" starttime="20170824 11:55:40.929" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;NIGHT VISION OFF&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.931">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:55:40.931" starttime="20170824 11:55:40.931" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;NIGHT VISION AUTO&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 11:55:40.935">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 11:55:40.935" starttime="20170824 11:55:40.935" status="FAIL"/>
+</kw>
+<doc>Perfecto Private : Perfecto_Private credentials not provided.</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170824 11:55:40.948" starttime="20170824 11:55:40.898" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170824 11:55:40.948" starttime="20170824 11:55:40.898" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Perfecto User ID : &lt;/th&gt;&lt;td colspan='2'&gt;No Account provided&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Perfecto Result URL : &lt;/th&gt;&lt;td colspan='2'&gt;&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<status critical="yes" endtime="20170824 11:55:41.056" starttime="20170824 11:55:41.009" status="FAIL"/>
+</suite>
+</robot>

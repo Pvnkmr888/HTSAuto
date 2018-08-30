@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><robot>
+<suite id="TS_Lyric_001" name="DAS_Android">
+<test name="As a user I want to verify that all Camera setting options">
+<kw name="Given  : &quot;Home Mode&quot; as precondition" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 15:33:16.256">&lt;b&gt;[PASS]&lt;/b&gt; Base station is set to home</msg>
+<status critical="yes" endtime="20170824 15:33:16.272" starttime="20170824 15:33:08.736" status="PASS"/>
+</kw>
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 15:33:22.686">&lt;b&gt;[FAIL]&lt;/b&gt; Instantiate Driver : Error occured. Error message - An unknown server-side error occurred while processing the command. Original error: Could not find a device to launch. You requested 'iPhone 7 (9.3)', but the available devices were: ["MOBP 03311 (10.3.3) [c85d7cb996a05d26abb89c93df86d62af5486f1f]","Apple TV 1080p (10.2) [03FB051F-21E0-4344-B302-647318B5D3C5] (Simulator)","iPad (5th generation) (10.3.1) [8F29E6F9-F695-4A27-8D50-C2A3D0E6BE50] (Simulator)","iPad Air (10.3.1) [7A0184D6-9898-4C0E-A939-73DE15CB3AED] (Simulator)","iPad Air 2 (10.3.1) [711AAF57-E46E-4DCE-A0F4-32D03447DDF9] (Simulator)","iPad Pro (10.5-inch) (10.3.1) [4EE74910-7865-41CC-9278-5FC32D47B485] (Simulator)","iPad Pro (12.9 inch) (10.3.1) [D3A4BFF4-AFBA-4084-BD5D-8D455A1083F8] (Simulator)","iPad Pro (12.9-inch) (2nd generation) (10.3.1) [2DF2CC85-8DE3-4B56-B317-A1665C286E31] (Simulator)","iPad Pro (9.7 inch) (10.3.1) [2AF8B28E-5B66-48DD-BF59-B3873D2884AE] (Simulator)","iPhone 5 (10.3.1) [8F814749-22E0-495B-AA99-76A095886DA2] (Simulator)","iPhone 5s (10.3.1) [9737B330-6FE0-4AC7-A152-F2B1887A19FC] (Simulator)","iPhone 6 (10.3.1) [97417071-528D-4BFF-AE94-D3A0D5873E4B] (Simulator)","iPhone 6 Plus (10.3.1) [2D284B3A-14F4-4FB0-B977-41564390AE35] (Simulator)","iPhone 6s (10.3.1) [DE3C1AD3-DF10-42F1-B654-EE5B15B1A08C] (Simulator)","iPhone 6s (10.3.1) + Apple Watch - 38mm (3.2) [F73EEC7D-0861-44DC-BE6A-92F56B49FF87] (Simulator)","iPhone 6s Plus (10.3.1) [B1E3AD25-C513-44EC-A59D-49207D587A14] (Simulator)","iPhone 6s Plus (10.3.1) + Apple Watch - 42mm (3.2) [8E679394-7925-46D0-8759-7E4B05D6FE06] (Simulator)","iPhone 7 (10.3.1) [462CB79E-F259-40D9-BECF-3FDEF48B0E06] (Simulator)","iPhone 7 (10.3.1) + Apple Watch Series 2 - 38mm (3.2) [255FB877-3D5D-4FA7-8DBF-87E0FD094677] (Simulator)","iPhone 7 Plus (10.3.1) [D2E97CFF-9798-4411-B645-B21704388A48] (Simulator)","iPhone 7 Plus (10.3.1) + Apple Watch Series 2 - 42mm (3.2) [0C50737E-E438-4C8F-A2D4-A6D62F4C965C] (Simulator)","iPhone SE (10.3.1) [26ADFDD1-8080-4203-9A7C-7827278EFD29] (Simulator)"] (WARNING: The server did not provide any stacktrace information)
+</msg>
+<msg html="yes" level="INFO" timestamp="20170824 15:33:22.728">&lt;b&gt;[FAIL]&lt;/b&gt; [Set App Environment ] : Failed to open secret menu</msg>
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 15:33:22.730">&lt;b&gt;[FAIL]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user logs in to Lyric app'. Error Occured - null</msg>
+<status critical="yes" endtime="20170824 15:33:22.732" starttime="20170824 15:33:22.729" status="FAIL"/>
+</kw>
+<kw name="Then  : verify the display of following:" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 15:33:22.778">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 15:33:22.779" starttime="20170824 15:33:22.777" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;CAMERA MICROPHONE&quot; is enabled" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 15:33:22.807">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 15:33:22.808" starttime="20170824 15:33:22.806" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;CAMERA MICROPHONE&quot; is disabled" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 15:33:22.838">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 15:33:22.839" starttime="20170824 15:33:22.836" status="FAIL"/>
+</kw>
+</kw>
+<doc>Instantiate Driver : Error occured. Error message - An unknown server-side error occurred while processing the command. Original error: Could not find a device to launch. You requested 'iPhone 7 (9.3)', but the available devices were: ["MOBP 03311 (10.3.3) [c85d7cb996a05d26abb89c93df86d62af5486f1f]","Apple TV 1080p (10.2) [03FB051F-21E0-4344-B302-647318B5D3C5] (Simulator)","iPad (5th generation) (10.3.1) [8F29E6F9-F695-4A27-8D50-C2A3D0E6BE50] (Simulator)","iPad Air (10.3.1) [7A0184D6-9898-4C0E-A939-73DE15CB3AED] (Simulator)","iPad Air 2 (10.3.1) [711AAF57-E46E-4DCE-A0F4-32D03447DDF9] (Simulator)","iPad Pro (10.5-inch) (10.3.1) [4EE74910-7865-41CC-9278-5FC32D47B485] (Simulator)","iPad Pro (12.9 inch) (10.3.1) [D3A4BFF4-AFBA-4084-BD5D-8D455A1083F8] (Simulator)","iPad Pro (12.9-inch) (2nd generation) (10.3.1) [2DF2CC85-8DE3-4B56-B317-A1665C286E31] (Simulator)","iPad Pro (9.7 inch) (10.3.1) [2AF8B28E-5B66-48DD-BF59-B3873D2884AE] (Simulator)","iPhone 5 (10.3.1) [8F814749-22E0-495B-AA99-76A095886DA2] (Simulator)","iPhone 5s (10.3.1) [9737B330-6FE0-4AC7-A152-F2B1887A19FC] (Simulator)","iPhone 6 (10.3.1) [97417071-528D-4BFF-AE94-D3A0D5873E4B] (Simulator)","iPhone 6 Plus (10.3.1) [2D284B3A-14F4-4FB0-B977-41564390AE35] (Simulator)","iPhone 6s (10.3.1) [DE3C1AD3-DF10-42F1-B654-EE5B15B1A08C] (Simulator)","iPhone 6s (10.3.1) + Apple Watch - 38mm (3.2) [F73EEC7D-0861-44DC-BE6A-92F56B49FF87] (Simulator)","iPhone 6s Plus (10.3.1) [B1E3AD25-C513-44EC-A59D-49207D587A14] (Simulator)","iPhone 6s Plus (10.3.1) + Apple Watch - 42mm (3.2) [8E679394-7925-46D0-8759-7E4B05D6FE06] (Simulator)","iPhone 7 (10.3.1) [462CB79E-F259-40D9-BECF-3FDEF48B0E06] (Simulator)","iPhone 7 (10.3.1) + Apple Watch Series 2 - 38mm (3.2) [255FB877-3D5D-4FA7-8DBF-87E0FD094677] (Simulator)","iPhone 7 Plus (10.3.1) [D2E97CFF-9798-4411-B645-B21704388A48] (Simulator)","iPhone 7 Plus (10.3.1) + Apple Watch Series 2 - 42mm (3.2) [0C50737E-E438-4C8F-A2D4-A6D62F4C965C] (Simulator)","iPhone SE (10.3.1) [26ADFDD1-8080-4203-9A7C-7827278EFD29] (Simulator)"] (WARNING: The server did not provide any stacktrace information)
+</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170824 15:33:22.882" starttime="20170824 15:33:08.701" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170824 15:33:22.885" starttime="20170824 15:33:08.701" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<status critical="yes" endtime="20170824 15:33:23.634" starttime="20170824 15:33:23.352" status="FAIL"/>
+</suite>
+</robot>

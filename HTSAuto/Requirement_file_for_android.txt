@@ -1,0 +1,7 @@
+Include Group	Group Name	Combine	Platform-Type-OS-Version	Name	Location	Environment	Test Data
+NO	DIYFlow		Android-Device-Android-5.0	Samsung Galaxy S5	Local	CHIL Das(QA)	"AcquisitionType=Specific, TestData='USERID=dastest@grr.la,PASSWORD=Password1,LOCATION1_NAME=No Location,LOCATION1_DEVICE1_NAME=No Device,ANDROID_UDID=ZY22392HXT'"
+	DasHomeSettings		Android-Device-Android-.*	.*	Perfecto	CHIL Int (Azure)	"AcquisitionType=Specific, TestData='USERID=dasciuser@honeywell.com,PASSWORD=Password1,LOCATION1_NAME=Home,LOCATION1_DEVICE1_NAME=Security'"
+	DasEntryExitSettings		Android-Device-Android-.*	.*	Perfecto	CHIL Int (Azure)	"AcquisitionType=Specific, TestData='USERID=dasciuser@honeywell.com,PASSWORD=Password1,LOCATION1_NAME=Home,LOCATION1_DEVICE1_NAME=Security'"
+	DasAwaySettings		Android-Device-Android-.*	.*	Perfecto	CHIL Int (Azure)	"AcquisitionType=Specific, TestData='USERID=dasciuser@honeywell.com,PASSWORD=Password1,LOCATION1_NAME=Home,LOCATION1_DEVICE1_NAME=Security'"
+	DasNightSettings		Android-Device-Android-.*	.*	Perfecto	CHIL Int (Azure)	"AcquisitionType=Specific, TestData='USERID=dasciuser@honeywell.com,PASSWORD=Password1,LOCATION1_NAME=Home,LOCATION1_DEVICE1_NAME=Security'"
+	dasBasestationRename		Android-Device-Android-.*	.*	Perfecto	CHIL Int (Azure)	"AcquisitionType=Specific, TestData='USERID=dasciuser@honeywell.com,PASSWORD=Password1,LOCATION1_NAME=Home,LOCATION1_DEVICE1_NAME=Security'"

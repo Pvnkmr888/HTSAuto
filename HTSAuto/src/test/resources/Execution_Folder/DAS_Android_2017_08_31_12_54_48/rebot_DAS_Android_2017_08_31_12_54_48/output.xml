@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><robot>
+<suite id="TS_Lyric_001" name="DAS_Android">
+<test name="motionDetection_retainZoneSelected">
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 12:55:09.026">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on ID:com.android.packageinstaller:id/permission_allow_button</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:55:19.768">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on WebServerURL</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:55:21.164">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on XPATH://*[@text='Chil Das(Test)']</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:55:21.165">&lt;b&gt;[PASS]&lt;/b&gt; [Set App Environment ] :  App environment set to Chil Das(Test)</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:55:22.153">&lt;b&gt;[PASS]&lt;/b&gt;  navigate back successfully</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:55:22.154">&lt;b&gt;[PASS]&lt;/b&gt; [Set App Environment ] : Navigating back to Login screen</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:55:23.224">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on LoginButton</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:55:30.811">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Email Address set to - autotest2@grr.la</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:55:37.798">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Password set to - Password1</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:55:38.413">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on LoginButton</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:55:43.785">&lt;b&gt;[PASS]&lt;/b&gt; Login to Lyric : Successfully navigated to HomeScreen</msg>
+<status critical="yes" endtime="20170831 12:55:43.785" starttime="20170831 12:54:49.843" status="PASS"/>
+</kw>
+<kw name="When  : user clicks on &quot;HAMBURGER MENU&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 12:55:51.698">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on GlobalDrawerButton</msg>
+<status critical="yes" endtime="20170831 12:55:51.698" starttime="20170831 12:55:43.830" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;DAS DEVICE&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 12:55:52.656">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on xpath://*[@text='My Apollo']</msg>
+<status critical="yes" endtime="20170831 12:55:52.657" starttime="20170831 12:55:51.706" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;BASE STATION SETTINGS&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 12:55:53.361">&lt;b&gt;[PASS]&lt;/b&gt; swipe up to focus on Base station menu was successfull</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:55:54.200">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on BaseStation_Option</msg>
+<status critical="yes" endtime="20170831 12:55:54.200" starttime="20170831 12:55:52.665" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;CAMERA SETTINGS&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 12:55:55.243">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on Base_StationCamera</msg>
+<status critical="yes" endtime="20170831 12:55:55.243" starttime="20170831 12:55:54.209" status="PASS"/>
+</kw>
+<kw name="And  : user taps on &quot;MOTION DETECTION&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 12:55:56.814">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on MotionDetectionLabel</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:55:56.814">&lt;b&gt;[PASS]&lt;/b&gt; Tapped on Motion Detection</msg>
+<status critical="yes" endtime="20170831 12:55:56.814" starttime="20170831 12:55:55.255" status="PASS"/>
+</kw>
+<kw name="When  : user taps on &quot;ZONE3&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 12:56:07.730">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on MotionDetection_Zone3</msg>
+<status critical="yes" endtime="20170831 12:56:07.730" starttime="20170831 12:55:56.822" status="PASS"/>
+</kw>
+<kw name="And  : user taps on &quot;ENABLE DETECTION ZONE&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 12:56:08.663">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on EnabledDetectionZone</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:56:08.664">&lt;b&gt;[PASS]&lt;/b&gt; Clicked on Enable detection zone</msg>
+<status critical="yes" endtime="20170831 12:56:08.664" starttime="20170831 12:56:07.739" status="PASS"/>
+</kw>
+<kw name="And  : verify &quot;ENABLE DETECTION ZONE&quot; is &quot;selected&quot;" type="kw">
+<kw name="And  : verify &quot;ENABLE DETECTION ZONE&quot; is &quot;selected&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 12:56:41.776">&lt;b&gt;[FAIL]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'verify "ENABLE DETECTION ZONE" is "selected"'. Error Occured - null</msg>
+<status critical="yes" endtime="20170831 12:56:46.661" starttime="20170831 12:56:38.053" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;ENABLE DETECTION ZONE&quot; is &quot;selected&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 12:57:02.798">&lt;b&gt;[FAIL]&lt;/b&gt; Get Mobile Element : EnabledDetectionZone', Unexpected Error occured - Session [2d40751a-c83c-40a4-9e69-0d3ffabe9b7e] was terminated due to TIMEOUT
+</msg>
+<msg html="yes" level="INFO" timestamp="20170831 12:57:02.798">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_31_12_54_49/#Error : org.openqa.selenium.WebDriverException: Session [2d40751a-c83c-40a4-9e69-0d3ffabe9b7e] was terminated due to TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_31_12_54_49/#Error : org.openqa.selenium.WebDriverException: Session [2d40751a-c83c-40a4-9e69-0d3ffabe9b7e] was terminated due to TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<kw name="Then  : verify &quot;ENABLE DETECTION ZONE&quot; is &quot;selected&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 12:57:02.800">&lt;b&gt;[FAIL]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'verify "ENABLE DETECTION ZONE" is "selected"'. Error Occured - null</msg>
+<status critical="yes" endtime="20170831 12:57:02.801" starttime="20170831 12:57:02.800" status="FAIL"/>
+</kw>
+</kw>
+</kw>
+<doc>Execute Keyword : Not able to execute Step - 'verify "ENABLE DETECTION ZONE" is "selected"'. Error Occured - null</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170831 12:57:02.812" starttime="20170831 12:54:49.824" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170831 12:57:02.813" starttime="20170831 12:54:49.824" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<status critical="yes" endtime="20170831 12:57:03.092" starttime="20170831 12:57:03.039" status="FAIL"/>
+</suite>
+</robot>

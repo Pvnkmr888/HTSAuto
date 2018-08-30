@@ -1,0 +1,10 @@
+[PASSED] :: 2017-08-28:17:50:40 :: <b>[PASS]</b> Click on Element : Successfully click on ID:com.android.packageinstaller:id/permission_allow_button
+[PASSED] :: 2017-08-28:17:50:49 :: <b>[PASS]</b> Click on Element : Successfully click on WebServerURL
+[PASSED] :: 2017-08-28:17:50:51 :: <b>[PASS]</b> Click on Element : Successfully click on XPATH://*[@text='Production']
+[PASSED] :: 2017-08-28:17:50:51 :: <b>[PASS]</b> [Set App Environment ] :  App environment set to Production
+[PASSED] :: 2017-08-28:17:50:52 :: <b>[PASS]</b>  navigate back successfully
+[PASSED] :: 2017-08-28:17:50:52 :: <b>[PASS]</b> [Set App Environment ] : Navigating back to Login screen
+[PASSED] :: 2017-08-28:17:50:53 :: <b>[PASS]</b> Click on Element : Successfully click on LoginButton
+[PASSED] :: 2017-08-28:17:51:00 :: <b>[PASS]</b> Login To Lyric : Email Address set to - autotest1@grr.la
+[PASSED] :: 2017-08-28:17:51:07 :: <b>[PASS]</b> Login To Lyric : Password set to - Password1
+[PASSED] :: 2017-08-28:17:51:08 :: <b>[PASS]</b> Click on Element : Successfully click on LoginButton

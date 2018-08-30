@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><robot>
+<suite id="TS_Lyric_001" name="DAS_Android">
+<test name="motionDetection_verifyZonesSensitivityLevel - #2">
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 18:00:49.062">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on ID:com.android.packageinstaller:id/permission_allow_button</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:00:59.151">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on WebServerURL</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:22.243">&lt;b&gt;[FAIL]&lt;/b&gt; Get Mobile Element : XPATH://*[@text='CHIL Das(Test)']', Element identification got timed out.</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:22.243">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_18_00_29/#Error : org.openqa.selenium.WebDriverException: Session [a7ac290f-1754-4d6c-96b2-70c016626600] was terminated due to BROWSER_TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_18_00_29/#Error : org.openqa.selenium.WebDriverException: Session [a7ac290f-1754-4d6c-96b2-70c016626600] was terminated due to BROWSER_TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:22.249">&lt;b&gt;[FAIL]&lt;/b&gt; Click on Element : Element not found XPATH://*[@text='CHIL Das(Test)']</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:22.249">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_18_00_29/#Error : org.openqa.selenium.WebDriverException: Session [a7ac290f-1754-4d6c-96b2-70c016626600] was terminated due to BROWSER_TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_18_00_29/#Error : org.openqa.selenium.WebDriverException: Session [a7ac290f-1754-4d6c-96b2-70c016626600] was terminated due to BROWSER_TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:22.249">&lt;b&gt;[FAIL]&lt;/b&gt; [Set App Environment ] : Not able to Select the required environment - CHIL Das(Test)</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:22.261">&lt;b&gt;[FAIL]&lt;/b&gt; Get Mobile Element : id:url_selection_header', Unexpected Error occured - Session [a7ac290f-1754-4d6c-96b2-70c016626600] was terminated due to BROWSER_TIMEOUT
+</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:22.261">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_18_00_29/#Error : org.openqa.selenium.WebDriverException: Session [a7ac290f-1754-4d6c-96b2-70c016626600] was terminated due to BROWSER_TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_18_00_29/#Error : org.openqa.selenium.WebDriverException: Session [a7ac290f-1754-4d6c-96b2-70c016626600] was terminated due to BROWSER_TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:22.267">&lt;b&gt;[FAIL]&lt;/b&gt; [Set App Environment ] : [Set App Environment ] : Error occured - null</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:22.267">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_18_00_29/#Error : org.openqa.selenium.WebDriverException: Session [a7ac290f-1754-4d6c-96b2-70c016626600] was terminated due to BROWSER_TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_18_00_29/#Error : org.openqa.selenium.WebDriverException: Session [a7ac290f-1754-4d6c-96b2-70c016626600] was terminated due to BROWSER_TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 18:01:22.273">&lt;b&gt;[FAIL]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user logs in to Lyric app'. Error Occured - null</msg>
+<status critical="yes" endtime="20170828 18:01:22.273" starttime="20170828 18:01:22.272" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;Zone2&quot; is displayed &quot;Low Normal High&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 18:01:22.281">&lt;b&gt;[FAIL]&lt;/b&gt; Then  - 'verify &lt;Zones&gt; is displayed "Low Normal High"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^verify (.*) is displayed (.*) Normal (.*)$")&lt;/p&gt;&lt;/p&gt;</msg>
+<status critical="yes" endtime="20170828 18:01:22.281" starttime="20170828 18:01:22.281" status="FAIL"/>
+</kw>
+</kw>
+<doc>[Set App Environment ] : Not able to Select the required environment - CHIL Das(Test)</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170828 18:01:22.293" starttime="20170828 18:00:29.715" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170828 18:01:22.293" starttime="20170828 18:00:29.715" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="motionDetection_verifyZonesSensitivityLevel - #3">
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 18:01:37.936">&lt;b&gt;[FAIL]&lt;/b&gt; Launch Application : Error occured - An unknown server-side error occurred while processing the command. Original error: UiAUtomator shut down unexpectedly (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.49 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.honeywell.android.lyric, fullReset=false, deviceName=8775bef9, platform=ANDROID, deviceUDID=8775bef9, desired={appPackage=com.honeywell.android.lyric, app=/Users/h242928/Desktop/Lyric41.apk, commandTimeout=300, appWaitActivity=, appWaitPackage=com.honeywell.android.lyric, version=, fullReset=false, deviceName=Samsung Galaxy S6, platform=ANDROID, appActivity=com.honeywell.granite.graniteui.presentation.activity.login.LoginActivity, autoLaunch=false, idleTimeout=1000, automationName=appium, name=motionDetection_verifyZonesSensitivityLevel, browserName=Samsung Galaxy S6 Device, platformName=Android}, platformVersion=6.0.1, webStorageEnabled=false, automationName=appium, takesScreenshot=true, browserName=Samsung Galaxy S6 Device, javascriptEnabled=true, platformName=Android, deviceManufacturer=OnePlus, app=/Users/h242928/Desktop/Lyric41.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, commandTimeout=300, appWaitActivity=, appWaitPackage=com.honeywell.android.lyric, databaseEnabled=false, version=, appActivity=com.honeywell.granite.graniteui.presentation.activity.login.LoginActivity, autoLaunch=false, idleTimeout=1000, locationContextEnabled=false, name=motionDetection_verifyZonesSensitivityLevel, deviceModel=ONE A2003}]
+Session ID: 453e0fb3-e209-4376-8942-8ba9dbb4b514</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:37.943">&lt;b&gt;[FAIL]&lt;/b&gt; Error Occured while launching application. Error message - A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:37.945">&lt;b&gt;[FAIL]&lt;/b&gt; Is Mobile Element Available : WebDriver Exception Occured - Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: AndroidDriver</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:37.945">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_18_01_22/#Error : null"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_18_01_22/#Error : null" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:37.948">&lt;b&gt;[FAIL]&lt;/b&gt; Get Mobile Element : LyricLogo', Unexpected Error occured - Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: AndroidDriver</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:37.948">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_18_01_22/#Error : null"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_18_01_22/#Error : null" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:37.950">&lt;b&gt;[FAIL]&lt;/b&gt; Get Mobile Element : HoneywellRosette', Unexpected Error occured - Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: AndroidDriver</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:37.950">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_18_01_22/#Error : null"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_18_01_22/#Error : null" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:37.951">&lt;b&gt;[FAIL]&lt;/b&gt; Set App Environment : Failed to open secret. Error Message : null</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:37.951">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_18_01_22/#Error : null"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_18_01_22/#Error : null" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:37.953">&lt;b&gt;[FAIL]&lt;/b&gt; Is Mobile Element Available : WebDriver Exception Occured - Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: AndroidDriver</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:37.953">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_18_01_22/#Error : null"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_18_01_22/#Error : null" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:37.954">&lt;b&gt;[FAIL]&lt;/b&gt; Is Mobile Element Available : WebDriver Exception Occured - Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: AndroidDriver</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:01:37.954">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Unable to navigate to homepage. Could not find notification icon on homepage</msg>
+<status critical="yes" endtime="20170828 18:01:37.955" starttime="20170828 18:01:22.314" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;Zone3&quot; is displayed &quot;Low Normal High&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 18:01:37.973">&lt;b&gt;[FAIL]&lt;/b&gt; Then  - 'verify &lt;Zones&gt; is displayed "Low Normal High"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^verify (.*) is displayed (.*) Normal (.*)$")&lt;/p&gt;&lt;/p&gt;</msg>
+<status critical="yes" endtime="20170828 18:01:37.974" starttime="20170828 18:01:37.973" status="FAIL"/>
+</kw>
+<doc>Error Occured while launching application. Error message - A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170828 18:01:37.989" starttime="20170828 18:01:22.312" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170828 18:01:37.990" starttime="20170828 18:01:22.312" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="motionDetection_verifyZonesSensitivityLevel - #4">
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 18:01:59.482">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on ID:com.android.packageinstaller:id/permission_allow_button</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:02:09.238">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on WebServerURL</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:02:13.783">&lt;b&gt;[FAIL]&lt;/b&gt; Get Mobile Element : XPATH://*[@text='CHIL Das(Test)']', Unexpected Error occured - A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:02:13.783">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_18_01_38/#Error : org.openqa.selenium.WebDriverException: Session [dde03ba4-625b-48aa-be89-d37478390fd8] was terminated due to BROWSER_TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_18_01_38/#Error : org.openqa.selenium.WebDriverException: Session [dde03ba4-625b-48aa-be89-d37478390fd8] was terminated due to BROWSER_TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:02:13.788">&lt;b&gt;[FAIL]&lt;/b&gt; Click on Element : Element not found XPATH://*[@text='CHIL Das(Test)']</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:02:13.788">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_18_01_38/#Error : org.openqa.selenium.WebDriverException: Session [dde03ba4-625b-48aa-be89-d37478390fd8] was terminated due to BROWSER_TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_18_01_38/#Error : org.openqa.selenium.WebDriverException: Session [dde03ba4-625b-48aa-be89-d37478390fd8] was terminated due to BROWSER_TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:02:13.789">&lt;b&gt;[FAIL]&lt;/b&gt; [Set App Environment ] : Not able to Select the required environment - CHIL Das(Test)</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:02:13.800">&lt;b&gt;[FAIL]&lt;/b&gt; Get Mobile Element : id:url_selection_header', Unexpected Error occured - Session [dde03ba4-625b-48aa-be89-d37478390fd8] was terminated due to BROWSER_TIMEOUT
+</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:02:13.800">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_18_01_38/#Error : org.openqa.selenium.WebDriverException: Session [dde03ba4-625b-48aa-be89-d37478390fd8] was terminated due to BROWSER_TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_18_01_38/#Error : org.openqa.selenium.WebDriverException: Session [dde03ba4-625b-48aa-be89-d37478390fd8] was terminated due to BROWSER_TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:02:13.806">&lt;b&gt;[FAIL]&lt;/b&gt; [Set App Environment ] : [Set App Environment ] : Error occured - null</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:02:13.806">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_18_01_38/#Error : org.openqa.selenium.WebDriverException: Session [dde03ba4-625b-48aa-be89-d37478390fd8] was terminated due to BROWSER_TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_18_01_38/#Error : org.openqa.selenium.WebDriverException: Session [dde03ba4-625b-48aa-be89-d37478390fd8] was terminated due to BROWSER_TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 18:02:13.813">&lt;b&gt;[FAIL]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user logs in to Lyric app'. Error Occured - null</msg>
+<status critical="yes" endtime="20170828 18:02:13.813" starttime="20170828 18:02:13.812" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;Zone4&quot; is displayed &quot;Low Normal High&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 18:02:13.823">&lt;b&gt;[FAIL]&lt;/b&gt; Then  - 'verify &lt;Zones&gt; is displayed "Low Normal High"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^verify (.*) is displayed (.*) Normal (.*)$")&lt;/p&gt;&lt;/p&gt;</msg>
+<status critical="yes" endtime="20170828 18:02:13.823" starttime="20170828 18:02:13.822" status="FAIL"/>
+</kw>
+</kw>
+<doc>[Set App Environment ] : Not able to Select the required environment - CHIL Das(Test)</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170828 18:02:13.831" starttime="20170828 18:01:38.019" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170828 18:02:13.832" starttime="20170828 18:01:38.019" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="motionDetection_verifyZonesSensitivityLevel">
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 17:59:14.823">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on ID:com.android.packageinstaller:id/permission_allow_button</msg>
+<msg html="yes" level="INFO" timestamp="20170828 17:59:23.724">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on WebServerURL</msg>
+<msg html="yes" level="INFO" timestamp="20170828 17:59:51.163">&lt;b&gt;[FAIL]&lt;/b&gt; Get Mobile Element : XPATH://*[@text='CHIL Das(Test)']', Element identification got timed out.</msg>
+<msg html="yes" level="INFO" timestamp="20170828 17:59:51.163">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_17_58_55/screenshot6430886639079645310.png"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_17_58_55/screenshot6430886639079645310.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170828 17:59:55.756">&lt;b&gt;[FAIL]&lt;/b&gt; Click on Element : Element not found XPATH://*[@text='CHIL Das(Test)']</msg>
+<msg html="yes" level="INFO" timestamp="20170828 17:59:55.756">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_17_58_55/screenshot1575783369281442019.png"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_17_58_55/screenshot1575783369281442019.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170828 17:59:55.756">&lt;b&gt;[FAIL]&lt;/b&gt; [Set App Environment ] : Not able to Select the required environment - CHIL Das(Test)</msg>
+<msg html="yes" level="INFO" timestamp="20170828 17:59:56.180">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on WebServerURL</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:00:22.898">&lt;b&gt;[FAIL]&lt;/b&gt; Get Mobile Element : XPATH://*[@text='CHIL Das(Test)']', Element identification got timed out.</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:00:22.899">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_17_58_55/screenshot9213295765931290501.png"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_17_58_55/screenshot9213295765931290501.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:00:25.751">&lt;b&gt;[FAIL]&lt;/b&gt; Click on Element : Element not found XPATH://*[@text='CHIL Das(Test)']</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:00:25.751">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_17_58_55/screenshot5066716337996501689.png"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_17_58_55/screenshot5066716337996501689.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:00:25.808">&lt;b&gt;[PASS]&lt;/b&gt;  navigate back successfully</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:00:25.808">&lt;b&gt;[PASS]&lt;/b&gt; [Set App Environment ] : Navigating back to Login screen</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:00:29.623">&lt;b&gt;[FAIL]&lt;/b&gt;  Set Value to Element : EmailAddress Unable to Set Value on element - Element not found.</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:00:29.624">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Not able to set Email Address.</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:00:29.624">&lt;b&gt;[FAIL]&lt;/b&gt;  Set Value to Element : Password Unable to Set Value on element - Element not found.</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:00:29.624">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Not able to set Password.</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:00:29.624">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Unable to navigate to homepage. Could not find notification icon on homepage</msg>
+<status critical="yes" endtime="20170828 18:00:29.624" starttime="20170828 17:58:55.961" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;Zone1&quot; is displayed &quot;Low Normal High&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 18:00:29.679">&lt;b&gt;[FAIL]&lt;/b&gt; Then  - 'verify &lt;Zones&gt; is displayed "Low Normal High"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^verify (.*) is displayed (.*) Normal (.*)$")&lt;/p&gt;&lt;/p&gt;</msg>
+<status critical="yes" endtime="20170828 18:00:29.679" starttime="20170828 18:00:29.677" status="FAIL"/>
+</kw>
+<doc>[Set App Environment ] : Not able to Select the required environment - CHIL Das(Test)</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170828 18:00:29.698" starttime="20170828 17:58:55.945" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170828 18:00:29.699" starttime="20170828 17:58:55.945" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<status critical="yes" endtime="20170828 18:02:14.217" starttime="20170828 18:02:14.122" status="FAIL"/>
+</suite>
+</robot>

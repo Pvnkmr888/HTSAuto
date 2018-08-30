@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><robot>
+<suite id="TS_Lyric_001" name="DAS_Android">
+<test name="motionDetection_chooseZones">
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 14:49:06.281">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:OK</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:49:07.917">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Allow</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:49:27.871">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on xpath://XCUIElementTypeTextField[contains(@value,'https')]</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:49:29.303">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Return</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:49:30.351">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Chil Das(Test)</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:49:31.224">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Done</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:49:33.033">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on LoginButton</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:49:35.280">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Email Address set to - autotest2@grr.la</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:49:36.894">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Password set to - Password1</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:49:37.818">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on NAME:Login_Button</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:49:43.495">&lt;b&gt;[PASS]&lt;/b&gt; Login to Lyric : Successfully navigated to HomeScreen</msg>
+<status critical="yes" endtime="20170830 14:49:43.496" starttime="20170830 14:48:02.468" status="PASS"/>
+</kw>
+<kw name="When  : user clicks on &quot;HAMBURGER MENU&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 14:49:51.368">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on GlobalDrawerButton</msg>
+<status critical="yes" endtime="20170830 14:49:51.369" starttime="20170830 14:49:43.537" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;DAS DEVICE&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 14:49:53.344">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:My Apollo</msg>
+<status critical="yes" endtime="20170830 14:49:53.344" starttime="20170830 14:49:51.375" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;BASE STATION SETTINGS&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 14:49:58.547">&lt;b&gt;[PASS]&lt;/b&gt; swipe up to focus on Base station menu was successfull</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:49:59.404">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on BaseStation_Option</msg>
+<status critical="yes" endtime="20170830 14:49:59.404" starttime="20170830 14:49:53.351" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;CAMERA SETTINGS&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 14:50:00.453">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on Base_StationCamera</msg>
+<status critical="yes" endtime="20170830 14:50:00.453" starttime="20170830 14:49:59.412" status="PASS"/>
+</kw>
+<kw name="And  : user taps on &quot;MOTION DETECTION&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 14:50:02.275">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on MotionDetectionLabel</msg>
+<msg html="yes" level="INFO" timestamp="20170830 14:50:02.276">&lt;b&gt;[PASS]&lt;/b&gt; Tapped on Motion Detection</msg>
+<status critical="yes" endtime="20170830 14:50:02.276" starttime="20170830 14:50:00.463" status="PASS"/>
+</kw>
+<kw name="When  : user taps on &quot;ZONE1&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 14:50:14.774">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on MotionDetection_Zone1</msg>
+<status critical="yes" endtime="20170830 14:50:14.774" starttime="20170830 14:50:02.286" status="PASS"/>
+</kw>
+<kw name="Then  : verify &quot;ZONE1&quot; is &quot;selected&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 14:50:15.841">&lt;b&gt;[PASS]&lt;/b&gt; ZONE1 selected</msg>
+<status critical="yes" endtime="20170830 14:50:15.841" starttime="20170830 14:50:14.781" status="PASS"/>
+</kw>
+<tags>
+<tag>TestName::motionDetection_chooseZones</tag>
+<tag>Group::motionDetection_chooseZones</tag>
+<tag>SolutionCategory::LyricRefactor</tag>
+<tag>DeviceType::Local-Simulator</tag>
+<tag>TargetName::iPhone 6</tag>
+<tag>DeviceSize::IOS_Medium</tag>
+<tag>OperatingSystem::IOS-9.3</tag>
+<tag>CloudEnvironment::Chil Das(Test)</tag>
+<tag>AccessoryName::autotest2@grr.la</tag>
+<tag>BuildNumber:: IOS - LyricLocal</tag>
+<tag>TestReportURL::http://10.79.42.121:8080/results/DAS_Android_2017_08_30_14_48_01/rebot/report.html#tags?Group::motionDetection_chooseZones</tag>
+</tags>
+<status critical="yes" endtime="20170830 14:50:15.852" starttime="20170830 14:48:02.453" status="PASS"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170830 14:50:15.852" starttime="20170830 14:48:02.453" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<status critical="yes" endtime="20170830 14:50:28.387" starttime="20170830 14:50:28.342" status="PASS"/>
+</suite>
+</robot>

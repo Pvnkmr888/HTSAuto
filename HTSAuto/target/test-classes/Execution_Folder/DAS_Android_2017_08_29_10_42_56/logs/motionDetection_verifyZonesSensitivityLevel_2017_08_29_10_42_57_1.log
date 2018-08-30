@@ -1,0 +1,16 @@
+[PASSED] :: 2017-08-29:10:43:16 :: <b>[PASS]</b> Click on Element : Successfully click on ID:com.android.packageinstaller:id/permission_allow_button
+[PASSED] :: 2017-08-29:10:43:25 :: <b>[PASS]</b> Click on Element : Successfully click on WebServerURL
+[PASSED] :: 2017-08-29:10:43:26 :: <b>[PASS]</b> Click on Element : Successfully click on XPATH://*[@text='Chil Das(Test)']
+[PASSED] :: 2017-08-29:10:43:26 :: <b>[PASS]</b> [Set App Environment ] :  App environment set to Chil Das(Test)
+[PASSED] :: 2017-08-29:10:43:27 :: <b>[PASS]</b>  navigate back successfully
+[PASSED] :: 2017-08-29:10:43:27 :: <b>[PASS]</b> [Set App Environment ] : Navigating back to Login screen
+[PASSED] :: 2017-08-29:10:43:28 :: <b>[PASS]</b> Click on Element : Successfully click on LoginButton
+[PASSED] :: 2017-08-29:10:43:36 :: <b>[PASS]</b> Login To Lyric : Email Address set to - autotest1@grr.la
+[PASSED] :: 2017-08-29:10:43:42 :: <b>[PASS]</b> Login To Lyric : Password set to - Password1
+[PASSED] :: 2017-08-29:10:43:43 :: <b>[PASS]</b> Click on Element : Successfully click on LoginButton
+[PASSED] :: 2017-08-29:10:43:50 :: <b>[PASS]</b> Login to Lyric : Successfully navigated to HomeScreen
+[PASSED] :: 2017-08-29:10:43:58 :: <b>[PASS]</b> Click on Element : Successfully click on GlobalDrawerButton
+[PASSED] :: 2017-08-29:10:43:59 :: <b>[PASS]</b> Click on Element : Successfully click on xpath://*[@text='My Apollo']
+[PASSED] :: 2017-08-29:10:44:00 :: <b>[PASS]</b> swipe up to focus on Base station menu was successfull
+[PASSED] :: 2017-08-29:10:44:01 :: <b>[PASS]</b> Click on Element : Successfully click on BaseStation_Option
+[PASSED] :: 2017-08-29:10:44:02 :: <b>[PASS]</b> Click on Element : Successfully click on Base_StationCamera

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><robot>
+<suite id="TS_Lyric_001" name="DAS_Android">
+<test name="motionDetection_verifyZonesSensitivityLevel">
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 18:45:19.404">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on ID:com.android.packageinstaller:id/permission_allow_button</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:45:29.606">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on WebServerURL</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:45:30.982">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on XPATH://*[@text='Chil Das(Test)']</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:45:30.983">&lt;b&gt;[PASS]&lt;/b&gt; [Set App Environment ] :  App environment set to Chil Das(Test)</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:45:31.764">&lt;b&gt;[PASS]&lt;/b&gt;  navigate back successfully</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:45:31.764">&lt;b&gt;[PASS]&lt;/b&gt; [Set App Environment ] : Navigating back to Login screen</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:45:32.827">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on LoginButton</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:45:40.692">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Email Address set to - autotest1@grr.la</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:45:47.735">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Password set to - Password1</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:45:48.435">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on LoginButton</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:45:53.606">&lt;b&gt;[PASS]&lt;/b&gt; Login to Lyric : Successfully navigated to HomeScreen</msg>
+<status critical="yes" endtime="20170828 18:45:53.606" starttime="20170828 18:45:02.018" status="PASS"/>
+</kw>
+<kw name="When  : user clicks on &quot;HAMBURGER MENU&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 18:46:01.710">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on GlobalDrawerButton</msg>
+<status critical="yes" endtime="20170828 18:46:01.710" starttime="20170828 18:45:53.656" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;DAS DEVICE&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 18:46:27.399">&lt;b&gt;[FAIL]&lt;/b&gt; Get Mobile Element : xpath://*[@text='Stat 6288']', Element identification got timed out.</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:46:27.399">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_18_45_02/screenshot3620978768897897891.png"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_18_45_02/screenshot3620978768897897891.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:46:30.260">&lt;b&gt;[FAIL]&lt;/b&gt; Click on Element : Element not found xpath://*[@text='Stat 6288']</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:46:30.260">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_18_45_02/screenshot6478505027258911487.png"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_18_45_02/screenshot6478505027258911487.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<status critical="yes" endtime="20170828 18:46:30.261" starttime="20170828 18:46:01.718" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;Zone1&quot; is displayed &quot;Low Normal High&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 18:46:30.269">&lt;b&gt;[FAIL]&lt;/b&gt; Then  - 'verify &lt;Zones&gt; is displayed "Low Normal High"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^verify (.*) is displayed (.*) Normal (.*)$")&lt;/p&gt;&lt;/p&gt;</msg>
+<status critical="yes" endtime="20170828 18:46:30.269" starttime="20170828 18:46:30.268" status="FAIL"/>
+</kw>
+<doc>Then  - 'verify &lt;Zones&gt; is displayed "Low Normal High"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^verify (.*) is displayed (.*) Normal (.*)$")&lt;/p&gt;&lt;/p&gt;</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170828 18:46:30.280" starttime="20170828 18:45:02.004" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170828 18:46:30.280" starttime="20170828 18:45:02.004" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<status critical="yes" endtime="20170828 18:46:33.259" starttime="20170828 18:46:33.217" status="FAIL"/>
+</suite>
+</robot>

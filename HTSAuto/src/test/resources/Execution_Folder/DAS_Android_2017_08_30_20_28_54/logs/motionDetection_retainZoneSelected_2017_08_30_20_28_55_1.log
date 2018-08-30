@@ -1,0 +1,21 @@
+[PASSED] :: 2017-08-30:20:29:17 :: <b>[PASS]</b> Click on Element : Successfully click on ID:com.android.packageinstaller:id/permission_allow_button
+[PASSED] :: 2017-08-30:20:29:26 :: <b>[PASS]</b> Click on Element : Successfully click on WebServerURL
+[PASSED] :: 2017-08-30:20:29:27 :: <b>[PASS]</b> Click on Element : Successfully click on XPATH://*[@text='Chil Das(Test)']
+[PASSED] :: 2017-08-30:20:29:27 :: <b>[PASS]</b> [Set App Environment ] :  App environment set to Chil Das(Test)
+[PASSED] :: 2017-08-30:20:29:28 :: <b>[PASS]</b>  navigate back successfully
+[PASSED] :: 2017-08-30:20:29:28 :: <b>[PASS]</b> [Set App Environment ] : Navigating back to Login screen
+[PASSED] :: 2017-08-30:20:29:29 :: <b>[PASS]</b> Click on Element : Successfully click on LoginButton
+[PASSED] :: 2017-08-30:20:29:36 :: <b>[PASS]</b> Login To Lyric : Email Address set to - autotest2@grr.la
+[PASSED] :: 2017-08-30:20:29:43 :: <b>[PASS]</b> Login To Lyric : Password set to - Password1
+[PASSED] :: 2017-08-30:20:29:44 :: <b>[PASS]</b> Click on Element : Successfully click on LoginButton
+[PASSED] :: 2017-08-30:20:29:50 :: <b>[PASS]</b> Login to Lyric : Successfully navigated to HomeScreen
+[PASSED] :: 2017-08-30:20:29:58 :: <b>[PASS]</b> Click on Element : Successfully click on GlobalDrawerButton
+[PASSED] :: 2017-08-30:20:29:58 :: <b>[PASS]</b> Click on Element : Successfully click on xpath://*[@text='My Apollo']
+[PASSED] :: 2017-08-30:20:29:59 :: <b>[PASS]</b> swipe up to focus on Base station menu was successfull
+[PASSED] :: 2017-08-30:20:30:00 :: <b>[PASS]</b> Click on Element : Successfully click on BaseStation_Option
+[PASSED] :: 2017-08-30:20:30:01 :: <b>[PASS]</b> Click on Element : Successfully click on Base_StationCamera
+[PASSED] :: 2017-08-30:20:30:03 :: <b>[PASS]</b> Click on Element : Successfully click on MotionDetectionLabel
+[PASSED] :: 2017-08-30:20:30:03 :: <b>[PASS]</b> Tapped on Motion Detection
+[PASSED] :: 2017-08-30:20:30:10 :: <b>[PASS]</b> Click on Element : Successfully click on MotionDetection_Zone2
+[PASSED] :: 2017-08-30:20:30:18 :: <b>[PASS]</b> Close and Reopen App : Successfully forced close the app and reopen it
+[PASSED] :: 2017-08-30:20:30:18 :: <b>[PASS]</b> Close and Reopen App : Successful

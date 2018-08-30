@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><robot>
+<suite id="TS_Lyric_001" name="DAS_Android">
+<test name="As a user I want to verify that all Camera setting options">
+<kw name="Given  : &quot;Home Mode&quot; as precondition" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:19:11.142">&lt;b&gt;[FAIL]&lt;/b&gt; Get Location Information  : Unable to connect to CHAPI.</msg>
+<status critical="yes" endtime="20170824 12:19:11.145" starttime="20170824 12:19:11.054" status="FAIL"/>
+</kw>
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:19:11.608">&lt;b&gt;[FAIL]&lt;/b&gt; Instantiate Driver : Error occured. Error message - A new session could not be created. Details: The desiredCapabilities object was not valid for the following reason(s): automationName XCUITest not part of Appium,Selendroid,WebDriverAgent. (WARNING: The server did not provide any stacktrace information)
+</msg>
+<msg html="yes" level="INFO" timestamp="20170824 12:19:11.608">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Unable to navigate to homepage. Could not find notification icon on homepage</msg>
+<status critical="yes" endtime="20170824 12:19:11.609" starttime="20170824 12:19:11.186" status="FAIL"/>
+</kw>
+<kw name="Then  : verify the display of following:" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:19:11.614">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:19:11.615" starttime="20170824 12:19:11.614" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;CAMERA MICROPHONE&quot; is enabled" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:19:11.619">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:19:11.619" starttime="20170824 12:19:11.619" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;CAMERA MICROPHONE&quot; is disabled" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:19:11.623">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:19:11.623" starttime="20170824 12:19:11.623" status="FAIL"/>
+</kw>
+<doc>Instantiate Driver : Error occured. Error message - A new session could not be created. Details: The desiredCapabilities object was not valid for the following reason(s): automationName XCUITest not part of Appium,Selendroid,WebDriverAgent. (WARNING: The server did not provide any stacktrace information)
+</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170824 12:19:11.628" starttime="20170824 12:19:11.048" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170824 12:19:11.629" starttime="20170824 12:19:11.048" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="As a user I want to verify the Video Quality setting menu options. - #3">
+<kw name="Given  : &quot;Home Mode&quot; as precondition" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:19:11.635">&lt;b&gt;[FAIL]&lt;/b&gt; Get Location Information  : Unable to connect to CHAPI.</msg>
+<status critical="yes" endtime="20170824 12:19:11.635" starttime="20170824 12:19:11.635" status="FAIL"/>
+</kw>
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:19:11.663">&lt;b&gt;[FAIL]&lt;/b&gt; Instantiate Driver : Error occured. Error message - A new session could not be created. Details: The desiredCapabilities object was not valid for the following reason(s): automationName XCUITest not part of Appium,Selendroid,WebDriverAgent. (WARNING: The server did not provide any stacktrace information)
+</msg>
+<msg html="yes" level="INFO" timestamp="20170824 12:19:11.664">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Unable to navigate to homepage. Could not find notification icon on homepage</msg>
+<status critical="yes" endtime="20170824 12:19:11.664" starttime="20170824 12:19:11.638" status="FAIL"/>
+</kw>
+<kw name="Then  : verify the display of following:" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:19:11.669">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:19:11.669" starttime="20170824 12:19:11.669" status="FAIL"/>
+</kw>
+<kw name="And  : user taps on &quot;VIDEO QUALITY LOW&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:19:11.673">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:19:11.674" starttime="20170824 12:19:11.673" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;VIDEO QUALITY LOW&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:19:11.677">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:19:11.677" starttime="20170824 12:19:11.677" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;VIDEO QUALITY HIGH&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:19:11.682">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:19:11.682" starttime="20170824 12:19:11.681" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;VIDEO QUALITY AUTO&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:19:11.686">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:19:11.686" starttime="20170824 12:19:11.686" status="FAIL"/>
+</kw>
+<doc>Instantiate Driver : Error occured. Error message - A new session could not be created. Details: The desiredCapabilities object was not valid for the following reason(s): automationName XCUITest not part of Appium,Selendroid,WebDriverAgent. (WARNING: The server did not provide any stacktrace information)
+</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170824 12:19:11.689" starttime="20170824 12:19:11.633" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170824 12:19:11.689" starttime="20170824 12:19:11.633" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="CameraNightVision_Menu - #2">
+<kw name="Given  : &quot;Home Mode&quot; as precondition" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:19:11.695">&lt;b&gt;[FAIL]&lt;/b&gt; Get Location Information  : Unable to connect to CHAPI.</msg>
+<status critical="yes" endtime="20170824 12:19:11.696" starttime="20170824 12:19:11.695" status="FAIL"/>
+</kw>
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:19:11.723">&lt;b&gt;[FAIL]&lt;/b&gt; Instantiate Driver : Error occured. Error message - A new session could not be created. Details: The desiredCapabilities object was not valid for the following reason(s): automationName XCUITest not part of Appium,Selendroid,WebDriverAgent. (WARNING: The server did not provide any stacktrace information)
+</msg>
+<msg html="yes" level="INFO" timestamp="20170824 12:19:11.724">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Unable to navigate to homepage. Could not find notification icon on homepage</msg>
+<status critical="yes" endtime="20170824 12:19:11.724" starttime="20170824 12:19:11.699" status="FAIL"/>
+</kw>
+<kw name="Then  : verify the display of following:" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:19:11.728">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:19:11.728" starttime="20170824 12:19:11.728" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;NIGHT VISION ON&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:19:11.732">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:19:11.732" starttime="20170824 12:19:11.732" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;NIGHT VISION OFF&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:19:11.736">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:19:11.736" starttime="20170824 12:19:11.736" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;NIGHT VISION AUTO&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:19:11.741">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:19:11.741" starttime="20170824 12:19:11.740" status="FAIL"/>
+</kw>
+<doc>Instantiate Driver : Error occured. Error message - A new session could not be created. Details: The desiredCapabilities object was not valid for the following reason(s): automationName XCUITest not part of Appium,Selendroid,WebDriverAgent. (WARNING: The server did not provide any stacktrace information)
+</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170824 12:19:11.744" starttime="20170824 12:19:11.693" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170824 12:19:11.744" starttime="20170824 12:19:11.693" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<status critical="yes" endtime="20170824 12:19:11.869" starttime="20170824 12:19:11.815" status="FAIL"/>
+</suite>
+</robot>

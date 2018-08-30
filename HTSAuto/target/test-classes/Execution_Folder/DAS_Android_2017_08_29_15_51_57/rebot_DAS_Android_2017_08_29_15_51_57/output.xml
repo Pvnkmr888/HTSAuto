@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><robot>
+<suite id="TS_Lyric_001" name="DAS_Android">
+<test name="motionDetection_verifyZonesSensitivityLevel">
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 15:52:18.070">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on ID:com.android.packageinstaller:id/permission_allow_button</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:52:28.145">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on WebServerURL</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:52:29.481">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on XPATH://*[@text='Chil Das(Test)']</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:52:29.481">&lt;b&gt;[PASS]&lt;/b&gt; [Set App Environment ] :  App environment set to Chil Das(Test)</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:52:30.258">&lt;b&gt;[PASS]&lt;/b&gt;  navigate back successfully</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:52:30.258">&lt;b&gt;[PASS]&lt;/b&gt; [Set App Environment ] : Navigating back to Login screen</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:52:31.135">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on LoginButton</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:52:38.838">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Email Address set to - dastest1@grr.la</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:52:45.848">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Password set to - Password1</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:52:46.495">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on LoginButton</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:52:53.132">&lt;b&gt;[PASS]&lt;/b&gt; Login to Lyric : Successfully navigated to HomeScreen</msg>
+<status critical="yes" endtime="20170829 15:52:53.133" starttime="20170829 15:51:57.757" status="PASS"/>
+</kw>
+<kw name="When  : user clicks on &quot;HAMBURGER MENU&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 15:53:00.682">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on GlobalDrawerButton</msg>
+<status critical="yes" endtime="20170829 15:53:00.682" starttime="20170829 15:52:53.173" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;DAS DEVICE&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 15:53:01.607">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on xpath://*[@text='My Apollo']</msg>
+<status critical="yes" endtime="20170829 15:53:01.607" starttime="20170829 15:53:00.689" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;BASE STATION SETTINGS&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 15:53:02.214">&lt;b&gt;[PASS]&lt;/b&gt; swipe up to focus on Base station menu was successfull</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:53:03.188">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on BaseStation_Option</msg>
+<status critical="yes" endtime="20170829 15:53:03.189" starttime="20170829 15:53:01.614" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;CAMERA SETTINGS&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 15:53:04.144">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on Base_StationCamera</msg>
+<status critical="yes" endtime="20170829 15:53:04.145" starttime="20170829 15:53:03.196" status="PASS"/>
+</kw>
+<kw name="And  : user taps on &quot;MOTION DETECTION&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 15:53:05.816">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on MotionDetectionLabel</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:53:05.816">&lt;b&gt;[PASS]&lt;/b&gt; Tapped on Motion Detection</msg>
+<status critical="yes" endtime="20170829 15:53:05.816" starttime="20170829 15:53:04.154" status="PASS"/>
+</kw>
+<kw name="When  : user taps on &quot;Zone1&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 15:53:09.097">&lt;b&gt;[FAIL]&lt;/b&gt; Zone1 input not handled</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:53:09.098">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_29_15_51_57/screenshot8670195824627948420.png"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_29_15_51_57/screenshot8670195824627948420.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<status critical="yes" endtime="20170829 15:53:09.100" starttime="20170829 15:53:05.824" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &lt;Zones&gt; is displayed &quot;Low&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 15:53:09.108">&lt;b&gt;[FAIL]&lt;/b&gt; Then  - 'verify &lt;Zones&gt; is displayed "Low"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^verify (.*) is displayed (.*)$")&lt;/p&gt;&lt;/p&gt;</msg>
+<status critical="yes" endtime="20170829 15:53:09.108" starttime="20170829 15:53:09.107" status="FAIL"/>
+</kw>
+<doc>Then  - 'verify &lt;Zones&gt; is displayed "Low"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^verify (.*) is displayed (.*)$")&lt;/p&gt;&lt;/p&gt;</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170829 15:53:09.118" starttime="20170829 15:51:57.742" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170829 15:53:09.118" starttime="20170829 15:51:57.742" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<status critical="yes" endtime="20170829 15:53:11.862" starttime="20170829 15:53:11.820" status="FAIL"/>
+</suite>
+</robot>

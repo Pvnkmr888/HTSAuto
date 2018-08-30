@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><robot>
+<suite id="TS_Lyric_001" name="DAS_Android">
+<test name="motionDetection_verifyZonesSensitivityLevel">
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 16:52:11.817">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on ID:com.android.packageinstaller:id/permission_allow_button</msg>
+<msg html="yes" level="INFO" timestamp="20170829 16:52:21.855">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on WebServerURL</msg>
+<msg html="yes" level="INFO" timestamp="20170829 16:52:23.132">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on XPATH://*[@text='Chil Das(Test)']</msg>
+<msg html="yes" level="INFO" timestamp="20170829 16:52:23.133">&lt;b&gt;[PASS]&lt;/b&gt; [Set App Environment ] :  App environment set to Chil Das(Test)</msg>
+<msg html="yes" level="INFO" timestamp="20170829 16:52:23.865">&lt;b&gt;[PASS]&lt;/b&gt;  navigate back successfully</msg>
+<msg html="yes" level="INFO" timestamp="20170829 16:52:23.865">&lt;b&gt;[PASS]&lt;/b&gt; [Set App Environment ] : Navigating back to Login screen</msg>
+<msg html="yes" level="INFO" timestamp="20170829 16:52:24.825">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on LoginButton</msg>
+<msg html="yes" level="INFO" timestamp="20170829 16:52:32.890">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Email Address set to - dastest1@grr.la</msg>
+<msg html="yes" level="INFO" timestamp="20170829 16:52:39.771">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Password set to - Password1</msg>
+<msg html="yes" level="INFO" timestamp="20170829 16:52:40.467">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on LoginButton</msg>
+<msg html="yes" level="INFO" timestamp="20170829 16:52:46.219">&lt;b&gt;[PASS]&lt;/b&gt; Login to Lyric : Successfully navigated to HomeScreen</msg>
+<status critical="yes" endtime="20170829 16:52:46.219" starttime="20170829 16:51:52.138" status="PASS"/>
+</kw>
+<kw name="When  : user clicks on &quot;HAMBURGER MENU&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 16:52:53.626">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on GlobalDrawerButton</msg>
+<status critical="yes" endtime="20170829 16:52:53.626" starttime="20170829 16:52:46.260" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;DAS DEVICE&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 16:52:54.837">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on xpath://*[@text='My Apollo']</msg>
+<status critical="yes" endtime="20170829 16:52:54.837" starttime="20170829 16:52:53.633" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;BASE STATION SETTINGS&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 16:52:55.347">&lt;b&gt;[PASS]&lt;/b&gt; swipe up to focus on Base station menu was successfull</msg>
+<msg html="yes" level="INFO" timestamp="20170829 16:53:21.346">&lt;b&gt;[FAIL]&lt;/b&gt; Get Mobile Element : BaseStation_Option', Element identification got timed out.</msg>
+<msg html="yes" level="INFO" timestamp="20170829 16:53:21.346">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_29_16_51_52/screenshot1972992824921945978.png"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_29_16_51_52/screenshot1972992824921945978.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170829 16:53:24.610">&lt;b&gt;[FAIL]&lt;/b&gt; Click on Element : Element not found BaseStation_Option</msg>
+<msg html="yes" level="INFO" timestamp="20170829 16:53:24.610">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_29_16_51_52/screenshot1896828769562237056.png"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_29_16_51_52/screenshot1896828769562237056.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<status critical="yes" endtime="20170829 16:53:24.610" starttime="20170829 16:52:54.845" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;ZONE1&quot; is displayed &quot;Low&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 16:54:14.328">&lt;b&gt;[FAIL]&lt;/b&gt; MotionDetection LowSensitivityText is not displayed</msg>
+<msg html="yes" level="INFO" timestamp="20170829 16:54:14.328">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_29_16_51_52/screenshot5581548666409102442.png"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_29_16_51_52/screenshot5581548666409102442.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170829 16:54:16.842">&lt;b&gt;[FAIL]&lt;/b&gt; Is Mobile Element Available : WebDriver Exception Occured - cannot forward the request Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+</msg>
+<msg html="yes" level="INFO" timestamp="20170829 16:54:16.842">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_29_16_51_52/#Error : org.openqa.selenium.WebDriverException: Session [ef5a5371-7067-4921-8cce-2fe288d815ce] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.14.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_29_16_51_52/#Error : org.openqa.selenium.WebDriverException: Session [ef5a5371-7067-4921-8cce-2fe288d815ce] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.14.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170829 16:54:16.848">&lt;b&gt;[FAIL]&lt;/b&gt; MotionDetection LowSensitivity is not displayed</msg>
+<msg html="yes" level="INFO" timestamp="20170829 16:54:16.848">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_29_16_51_52/#Error : org.openqa.selenium.WebDriverException: Session [ef5a5371-7067-4921-8cce-2fe288d815ce] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.14.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_29_16_51_52/#Error : org.openqa.selenium.WebDriverException: Session [ef5a5371-7067-4921-8cce-2fe288d815ce] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.14.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170829 16:54:16.855">&lt;b&gt;[FAIL]&lt;/b&gt; Is Mobile Element Available : WebDriver Exception Occured - Session [ef5a5371-7067-4921-8cce-2fe288d815ce] was terminated due to FORWARDING_TO_NODE_FAILED
+</msg>
+<kw name="Then  : verify &quot;ZONE1&quot; is displayed &quot;Low&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 16:54:16.862">&lt;b&gt;[FAIL]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'verify "ZONE1" is displayed "Low"'. Error Occured - null</msg>
+<status critical="yes" endtime="20170829 16:54:16.862" starttime="20170829 16:54:16.861" status="FAIL"/>
+</kw>
+</kw>
+<doc>Is Mobile Element Available : WebDriver Exception Occured - cannot forward the request Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170829 16:54:16.876" starttime="20170829 16:51:52.121" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170829 16:54:16.876" starttime="20170829 16:51:52.121" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<status critical="yes" endtime="20170829 16:54:17.162" starttime="20170829 16:54:17.116" status="FAIL"/>
+</suite>
+</robot>

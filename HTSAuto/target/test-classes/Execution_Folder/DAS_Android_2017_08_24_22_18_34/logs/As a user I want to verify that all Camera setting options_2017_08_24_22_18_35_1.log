@@ -1,0 +1,25 @@
+[PASSED] :: 2017-08-24:22:19:06 :: <b>[PASS]</b> Click on Element : Successfully click on name:OK
+[PASSED] :: 2017-08-24:22:19:08 :: <b>[PASS]</b> Click on Element : Successfully click on name:Allow
+[PASSED] :: 2017-08-24:22:19:23 :: <b>[PASS]</b> Click on Element : Successfully click on xpath://XCUIElementTypeTextField[contains(@value,'https')]
+[PASSED] :: 2017-08-24:22:19:24 :: <b>[PASS]</b> Click on Element : Successfully click on name:Return
+[PASSED] :: 2017-08-24:22:19:25 :: <b>[PASS]</b> Click on Element : Successfully click on name:Done
+[PASSED] :: 2017-08-24:22:19:26 :: <b>[PASS]</b> Click on Element : Successfully click on LoginButton
+[PASSED] :: 2017-08-24:22:19:30 :: <b>[PASS]</b> Login To Lyric : Email Address set to - testaccount@mailinator.com
+[PASSED] :: 2017-08-24:22:19:31 :: <b>[PASS]</b> Login To Lyric : Password set to - Password1
+[PASSED] :: 2017-08-24:22:19:32 :: <b>[PASS]</b> Click on Element : Successfully click on NAME:Login_Button
+[PASSED] :: 2017-08-24:22:19:37 :: <b>[PASS]</b> Login to Lyric : Successfully navigated to HomeScreen
+[PASSED] :: 2017-08-24:22:19:38 :: <b>[PASS]</b> Click on Element : Successfully click on GlobalDrawerButton
+[PASSED] :: 2017-08-24:22:19:46 :: <b>[PASS]</b> Click on Element : Successfully click on name:Security
+[PASSED] :: 2017-08-24:22:19:51 :: <b>[PASS]</b> swipe up to focus on Base station menu was successfull
+[PASSED] :: 2017-08-24:22:19:52 :: <b>[PASS]</b> Click on Element : Successfully click on BaseStation_Option
+[PASSED] :: 2017-08-24:22:19:54 :: <b>[PASS]</b> Click on Element : Successfully click on Base_StationCamera
+[PASSED] :: 2017-08-24:22:19:55 :: <b>[PASS]</b> MOTION DETECTION is displayed
+[PASSED] :: 2017-08-24:22:19:55 :: <b>[PASS]</b> MICRO PHONE is displayed
+[PASSED] :: 2017-08-24:22:19:55 :: <b>[PASS]</b> NIGHT VISION is displayed
+[PASSED] :: 2017-08-24:22:19:56 :: <b>[PASS]</b> VIDEO QUALITY is displayed
+[PASSED] :: 2017-08-24:22:19:56 :: <b>[PASS]</b> CAMERA MICROPHONE enabled already
+[PASSED] :: 2017-08-24:22:19:57 :: <b>[PASS]</b> CAMERA MICROPHONE is enabled
+[PASSED] :: 2017-08-24:22:19:59 :: <b>[PASS]</b> Click on Element : Successfully click on CameraMicrophone_Switch
+[PASSED] :: 2017-08-24:22:19:59 :: <b>[PASS]</b> Microphone Pop is displayed
+[PASSED] :: 2017-08-24:22:20:00 :: <b>[PASS]</b> Click on Element : Successfully click on OK_button
+[PASSED] :: 2017-08-24:22:20:00 :: <b>[PASS]</b> CAMERA MICROPHONE disabled

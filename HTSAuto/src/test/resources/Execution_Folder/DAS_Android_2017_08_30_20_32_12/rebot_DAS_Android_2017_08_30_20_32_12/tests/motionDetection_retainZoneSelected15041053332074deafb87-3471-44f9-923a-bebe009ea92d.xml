@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><test name="motionDetection_retainZoneSelected">
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 20:33:08.521">&lt;b&gt;[FAIL]&lt;/b&gt; Instantiate Driver : Error occured. Error message - Error forwarding the new session Error forwarding the request Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+</msg>
+<msg html="yes" level="INFO" timestamp="20170830 20:33:08.614">&lt;b&gt;[FAIL]&lt;/b&gt; Set App Environment : Failed to open secret. Error Message : null</msg>
+<msg html="yes" level="INFO" timestamp="20170830 20:33:08.615">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Unable to navigate to homepage. Could not find notification icon on homepage</msg>
+<status critical="yes" endtime="20170830 20:33:08.616" starttime="20170830 20:32:13.325" status="FAIL"/>
+</kw>
+<kw name="Then  : user force kill and relaunches the app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 20:33:08.661">&lt;b&gt;[FAIL]&lt;/b&gt; Close and Reopen App : Failed forced close the app and reopen it. Error occured : null</msg>
+<msg html="yes" level="INFO" timestamp="20170830 20:33:08.662">&lt;b&gt;[FAIL]&lt;/b&gt; Close and Reopen App : Failed</msg>
+<status critical="yes" endtime="20170830 20:33:08.663" starttime="20170830 20:33:08.661" status="FAIL"/>
+</kw>
+<doc>Instantiate Driver : Error occured. Error message - Error forwarding the new session Error forwarding the request Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170830 20:33:08.675" starttime="20170830 20:32:13.305" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170830 20:33:08.675" starttime="20170830 20:32:13.305" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>

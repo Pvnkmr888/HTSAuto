@@ -1,0 +1,6 @@
+[
+{"JasperStatType":"NA","TempScale":"Fahrenheit","SystemMode":"Auto","WakeTime":"6:00 AM","WakeHeatTemp":"65","WakeCoolTemp":"78","AwayTime":"8:00 AM","AwayHeatTemp":"75","AwayCoolTemp":"80","HomeTime":"5:00 PM","HomeHeatTemp":"69","HomeCoolTemp":"78","SleepTime":"8:00 PM","SleepHeatTemp":"70","SleepCoolTemp":"70"},
+{"JasperStatType":"NA","TempScale":"Celsius","SystemMode":"Other","WakeTime":"6:00 AM","WakeHeatTemp":"65","WakeCoolTemp":"78","AwayTime":"8:00 AM","AwayHeatTemp":"75","AwayCoolTemp":"80","HomeTime":"5:00 PM","HomeHeatTemp":"69","HomeCoolTemp":"78","SleepTime":"8:00 PM","SleepHeatTemp":"70","SleepCoolTemp":"70"},
+{"JasperStatType":"NA","TempScale":"Fahrenheit","SystemMode":"Other","WakeTime":"6:00 AM","WakeHeatTemp":"65","WakeCoolTemp":"78","AwayTime":"8:00 AM","AwayHeatTemp":"75","AwayCoolTemp":"80","HomeTime":"5:00 PM","HomeHeatTemp":"69","HomeCoolTemp":"78","SleepTime":"8:00 PM","SleepHeatTemp":"70","SleepCoolTemp":"70"},
+{"JasperStatType":"NA","TempScale":"Celsius","SystemMode":"Auto","WakeTime":"6:00 AM","WakeHeatTemp":"65","WakeCoolTemp":"78","AwayTime":"8:00 AM","AwayHeatTemp":"75","AwayCoolTemp":"80","HomeTime":"5:00 PM","HomeHeatTemp":"69","HomeCoolTemp":"78","SleepTime":"8:00 PM","SleepHeatTemp":"70","SleepCoolTemp":"70"}
+]

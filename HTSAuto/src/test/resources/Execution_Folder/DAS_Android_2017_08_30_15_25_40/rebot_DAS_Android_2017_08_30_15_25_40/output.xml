@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><robot>
+<suite id="TS_Lyric_001" name="DAS_Android">
+<test name="motionDetection_verifyZonesSensitivityLevel">
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 15:26:48.304">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:OK</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:26:49.918">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Allow</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:27:09.677">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on xpath://XCUIElementTypeTextField[contains(@value,'https')]</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:27:11.069">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Return</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:27:12.076">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Chil Das(Test)</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:27:12.976">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Done</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:27:14.351">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on LoginButton</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:27:16.461">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Email Address set to - autotest2@grr.la</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:27:18.042">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Password set to - Password1</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:27:18.988">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on NAME:Login_Button</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:27:23.438">&lt;b&gt;[PASS]&lt;/b&gt; Login to Lyric : Successfully navigated to HomeScreen</msg>
+<status critical="yes" endtime="20170830 15:27:23.439" starttime="20170830 15:25:41.378" status="PASS"/>
+</kw>
+<kw name="When  : user clicks on &quot;HAMBURGER MENU&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 15:27:31.258">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on GlobalDrawerButton</msg>
+<status critical="yes" endtime="20170830 15:27:31.258" starttime="20170830 15:27:23.479" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;DAS DEVICE&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 15:27:33.233">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:My Apollo</msg>
+<status critical="yes" endtime="20170830 15:27:33.233" starttime="20170830 15:27:31.264" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;BASE STATION SETTINGS&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 15:27:38.432">&lt;b&gt;[PASS]&lt;/b&gt; swipe up to focus on Base station menu was successfull</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:27:39.281">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on BaseStation_Option</msg>
+<status critical="yes" endtime="20170830 15:27:39.281" starttime="20170830 15:27:33.240" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;CAMERA SETTINGS&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 15:27:40.273">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on Base_StationCamera</msg>
+<status critical="yes" endtime="20170830 15:27:40.273" starttime="20170830 15:27:39.288" status="PASS"/>
+</kw>
+<kw name="And  : user taps on &quot;MOTION DETECTION&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 15:27:41.975">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on MotionDetectionLabel</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:27:41.975">&lt;b&gt;[PASS]&lt;/b&gt; Tapped on Motion Detection</msg>
+<status critical="yes" endtime="20170830 15:27:41.976" starttime="20170830 15:27:40.286" status="PASS"/>
+</kw>
+<kw name="When  : user taps on &quot;ZONE1&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 15:27:53.573">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on MotionDetection_Zone1</msg>
+<status critical="yes" endtime="20170830 15:27:53.573" starttime="20170830 15:27:41.983" status="PASS"/>
+</kw>
+<kw name="Then  : verify &quot;ZONE1&quot; is displayed &quot;Low&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 15:28:37.491">&lt;b&gt;[FAIL]&lt;/b&gt; MotionDetection LowSensitivity is not displayed</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:28:37.491">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_30_15_25_41/screenshot1505468679563862338.png"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_30_15_25_41/screenshot1505468679563862338.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:29:21.316">&lt;b&gt;[FAIL]&lt;/b&gt; MotionDetection LowSensitivity is not displayed</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:29:21.317">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_30_15_25_41/screenshot3201976465791264777.png"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_30_15_25_41/screenshot3201976465791264777.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:30:04.962">&lt;b&gt;[FAIL]&lt;/b&gt; MotionDetection LowSensitivity is not displayed</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:30:04.962">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_30_15_25_41/screenshot1329981457711545885.png"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_30_15_25_41/screenshot1329981457711545885.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:30:48.658">&lt;b&gt;[FAIL]&lt;/b&gt; MotionDetection LowSensitivity is not displayed</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:30:48.658">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_30_15_25_41/screenshot3256795313399408574.png"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_30_15_25_41/screenshot3256795313399408574.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:31:32.411">&lt;b&gt;[FAIL]&lt;/b&gt; MotionDetection LowSensitivity is not displayed</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:31:32.412">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_30_15_25_41/screenshot4679395413564069677.png"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_30_15_25_41/screenshot4679395413564069677.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:32:06.574">&lt;b&gt;[FAIL]&lt;/b&gt; Is Mobile Element Available : WebDriver Exception Occured - cannot forward the request Connect to 10.77.15.66:4723 [/10.77.15.66] failed: Connection refused (Connection refused)
+</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:32:06.574">&lt;b&gt;[FAIL]&lt;/b&gt; MotionDetection LowSensitivity is not displayed</msg>
+<msg html="yes" level="INFO" timestamp="20170830 15:32:06.583">&lt;b&gt;[FAIL]&lt;/b&gt; Is Mobile Element Available : WebDriver Exception Occured - Session [89a94408-428b-45d4-8078-7ebbdf73b1f5] was terminated due to FORWARDING_TO_NODE_FAILED
+</msg>
+<kw name="Then  : verify &quot;ZONE1&quot; is displayed &quot;Low&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 15:32:06.590">&lt;b&gt;[FAIL]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'verify "ZONE1" is displayed "Low"'. Error Occured - null</msg>
+<status critical="yes" endtime="20170830 15:32:06.590" starttime="20170830 15:32:06.590" status="FAIL"/>
+</kw>
+</kw>
+<doc>MotionDetection LowSensitivity is not displayed</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170830 15:32:06.606" starttime="20170830 15:25:41.361" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170830 15:32:06.607" starttime="20170830 15:25:41.361" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<status critical="yes" endtime="20170830 15:32:06.905" starttime="20170830 15:32:06.843" status="FAIL"/>
+</suite>
+</robot>

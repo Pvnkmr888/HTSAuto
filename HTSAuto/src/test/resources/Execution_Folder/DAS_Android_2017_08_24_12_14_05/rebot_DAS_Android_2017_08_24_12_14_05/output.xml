@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><robot>
+<suite id="TS_Lyric_001" name="DAS_Android">
+<test name="As a user I want to verify that all Camera setting options">
+<kw name="Given  : &quot;Home Mode&quot; as precondition" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:14:06.124">&lt;b&gt;[FAIL]&lt;/b&gt; Get Location Information  : Unable to connect to CHAPI.</msg>
+<status critical="yes" endtime="20170824 12:14:06.128" starttime="20170824 12:14:06.037" status="FAIL"/>
+</kw>
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:14:06.529">&lt;b&gt;[FAIL]&lt;/b&gt; Instantiate Driver : Error occured. Error message - Error forwarding the new session cannot find : Capabilities [{app=/Users/buildadmin/UIAutomation/Lyric4.ipa, commandTimeout=300, bundleId=com.honeywell.acs.lyric.qaautomation, locationServicesEnabled=true, version=, launchTimeout=60000, fullReset=false, deviceName=iPhone 6, platform=MAC, sendKeyStrategy=grouped, autoLaunch=true, idleTimeout=1000, automationName=XCUITest, name=As a user I want to verify that all Camera setting options, browserName=iPhone 6 Device, udid=iPhone 6, platformName=iOS, autoAcceptAlerts=true}]
+</msg>
+<msg html="yes" level="INFO" timestamp="20170824 12:14:06.529">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Unable to navigate to homepage. Could not find notification icon on homepage</msg>
+<status critical="yes" endtime="20170824 12:14:06.529" starttime="20170824 12:14:06.177" status="FAIL"/>
+</kw>
+<kw name="Then  : verify the display of following:" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:14:06.534">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:14:06.534" starttime="20170824 12:14:06.534" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;CAMERA MICROPHONE&quot; is enabled" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:14:06.538">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:14:06.539" starttime="20170824 12:14:06.538" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;CAMERA MICROPHONE&quot; is disabled" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:14:06.543">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:14:06.543" starttime="20170824 12:14:06.542" status="FAIL"/>
+</kw>
+<doc>Instantiate Driver : Error occured. Error message - Error forwarding the new session cannot find : Capabilities [{app=/Users/buildadmin/UIAutomation/Lyric4.ipa, commandTimeout=300, bundleId=com.honeywell.acs.lyric.qaautomation, locationServicesEnabled=true, version=, launchTimeout=60000, fullReset=false, deviceName=iPhone 6, platform=MAC, sendKeyStrategy=grouped, autoLaunch=true, idleTimeout=1000, automationName=XCUITest, name=As a user I want to verify that all Camera setting options, browserName=iPhone 6 Device, udid=iPhone 6, platformName=iOS, autoAcceptAlerts=true}]
+</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170824 12:14:06.548" starttime="20170824 12:14:06.031" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170824 12:14:06.548" starttime="20170824 12:14:06.031" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="As a user I want to verify the Video Quality setting menu options. - #3">
+<kw name="Given  : &quot;Home Mode&quot; as precondition" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:14:06.553">&lt;b&gt;[FAIL]&lt;/b&gt; Get Location Information  : Unable to connect to CHAPI.</msg>
+<status critical="yes" endtime="20170824 12:14:06.554" starttime="20170824 12:14:06.553" status="FAIL"/>
+</kw>
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:14:06.570">&lt;b&gt;[FAIL]&lt;/b&gt; Instantiate Driver : Error occured. Error message - Error forwarding the new session cannot find : Capabilities [{app=/Users/buildadmin/UIAutomation/Lyric4.ipa, commandTimeout=300, bundleId=com.honeywell.acs.lyric.qaautomation, locationServicesEnabled=true, version=, launchTimeout=60000, fullReset=false, deviceName=iPhone 6, platform=MAC, sendKeyStrategy=grouped, autoLaunch=true, idleTimeout=1000, automationName=XCUITest, name=As a user I want to verify the Video Quality setting menu options., browserName=iPhone 6 Device, udid=iPhone 6, platformName=iOS, autoAcceptAlerts=true}]
+</msg>
+<msg html="yes" level="INFO" timestamp="20170824 12:14:06.570">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Unable to navigate to homepage. Could not find notification icon on homepage</msg>
+<status critical="yes" endtime="20170824 12:14:06.570" starttime="20170824 12:14:06.556" status="FAIL"/>
+</kw>
+<kw name="Then  : verify the display of following:" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:14:06.573">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:14:06.573" starttime="20170824 12:14:06.573" status="FAIL"/>
+</kw>
+<kw name="And  : user taps on &quot;VIDEO QUALITY LOW&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:14:06.576">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:14:06.576" starttime="20170824 12:14:06.576" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;VIDEO QUALITY LOW&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:14:06.580">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:14:06.580" starttime="20170824 12:14:06.580" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;VIDEO QUALITY HIGH&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:14:06.583">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:14:06.583" starttime="20170824 12:14:06.583" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;VIDEO QUALITY AUTO&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:14:06.588">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:14:06.588" starttime="20170824 12:14:06.587" status="FAIL"/>
+</kw>
+<doc>Instantiate Driver : Error occured. Error message - Error forwarding the new session cannot find : Capabilities [{app=/Users/buildadmin/UIAutomation/Lyric4.ipa, commandTimeout=300, bundleId=com.honeywell.acs.lyric.qaautomation, locationServicesEnabled=true, version=, launchTimeout=60000, fullReset=false, deviceName=iPhone 6, platform=MAC, sendKeyStrategy=grouped, autoLaunch=true, idleTimeout=1000, automationName=XCUITest, name=As a user I want to verify the Video Quality setting menu options., browserName=iPhone 6 Device, udid=iPhone 6, platformName=iOS, autoAcceptAlerts=true}]
+</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170824 12:14:06.591" starttime="20170824 12:14:06.551" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170824 12:14:06.591" starttime="20170824 12:14:06.551" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="CameraNightVision_Menu - #2">
+<kw name="Given  : &quot;Home Mode&quot; as precondition" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:14:06.598">&lt;b&gt;[FAIL]&lt;/b&gt; Get Location Information  : Unable to connect to CHAPI.</msg>
+<status critical="yes" endtime="20170824 12:14:06.598" starttime="20170824 12:14:06.598" status="FAIL"/>
+</kw>
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:14:06.615">&lt;b&gt;[FAIL]&lt;/b&gt; Instantiate Driver : Error occured. Error message - Error forwarding the new session cannot find : Capabilities [{app=/Users/buildadmin/UIAutomation/Lyric4.ipa, commandTimeout=300, bundleId=com.honeywell.acs.lyric.qaautomation, locationServicesEnabled=true, version=, launchTimeout=60000, fullReset=false, deviceName=iPhone 6, platform=MAC, sendKeyStrategy=grouped, autoLaunch=true, idleTimeout=1000, automationName=XCUITest, name=CameraNightVision_Menu, browserName=iPhone 6 Device, udid=iPhone 6, platformName=iOS, autoAcceptAlerts=true}]
+</msg>
+<msg html="yes" level="INFO" timestamp="20170824 12:14:06.616">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Unable to navigate to homepage. Could not find notification icon on homepage</msg>
+<status critical="yes" endtime="20170824 12:14:06.616" starttime="20170824 12:14:06.602" status="FAIL"/>
+</kw>
+<kw name="Then  : verify the display of following:" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:14:06.620">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:14:06.620" starttime="20170824 12:14:06.619" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;NIGHT VISION ON&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:14:06.623">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:14:06.623" starttime="20170824 12:14:06.623" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;NIGHT VISION OFF&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:14:06.627">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:14:06.627" starttime="20170824 12:14:06.627" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;NIGHT VISION AUTO&quot; is selected" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 12:14:06.631">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 12:14:06.631" starttime="20170824 12:14:06.631" status="FAIL"/>
+</kw>
+<doc>Instantiate Driver : Error occured. Error message - Error forwarding the new session cannot find : Capabilities [{app=/Users/buildadmin/UIAutomation/Lyric4.ipa, commandTimeout=300, bundleId=com.honeywell.acs.lyric.qaautomation, locationServicesEnabled=true, version=, launchTimeout=60000, fullReset=false, deviceName=iPhone 6, platform=MAC, sendKeyStrategy=grouped, autoLaunch=true, idleTimeout=1000, automationName=XCUITest, name=CameraNightVision_Menu, browserName=iPhone 6 Device, udid=iPhone 6, platformName=iOS, autoAcceptAlerts=true}]
+</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170824 12:14:06.633" starttime="20170824 12:14:06.596" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170824 12:14:06.634" starttime="20170824 12:14:06.596" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<status critical="yes" endtime="20170824 12:14:06.758" starttime="20170824 12:14:06.699" status="FAIL"/>
+</suite>
+</robot>

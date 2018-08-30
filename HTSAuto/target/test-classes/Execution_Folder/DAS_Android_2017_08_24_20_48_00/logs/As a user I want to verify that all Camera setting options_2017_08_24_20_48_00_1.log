@@ -1,0 +1,11 @@
+[PASSED] :: 2017-08-24:20:48:30 :: <b>[PASS]</b> Click on Element : Successfully click on name:OK
+[PASSED] :: 2017-08-24:20:48:32 :: <b>[PASS]</b> Click on Element : Successfully click on name:Allow
+[PASSED] :: 2017-08-24:20:48:48 :: <b>[PASS]</b> Click on Element : Successfully click on xpath://XCUIElementTypeTextField[contains(@value,'https')]
+[PASSED] :: 2017-08-24:20:48:49 :: <b>[PASS]</b> Click on Element : Successfully click on name:Return
+[PASSED] :: 2017-08-24:20:48:50 :: <b>[PASS]</b> Click on Element : Successfully click on name:Done
+[PASSED] :: 2017-08-24:20:48:52 :: <b>[PASS]</b> Click on Element : Successfully click on LoginButton
+[PASSED] :: 2017-08-24:20:48:55 :: <b>[PASS]</b> Login To Lyric : Email Address set to - testaccount@mailinator.com
+[PASSED] :: 2017-08-24:20:48:57 :: <b>[PASS]</b> Login To Lyric : Password set to - Password1
+[PASSED] :: 2017-08-24:20:48:58 :: <b>[PASS]</b> Click on Element : Successfully click on NAME:Login_Button
+[PASSED] :: 2017-08-24:20:49:03 :: <b>[PASS]</b> Login to Lyric : Successfully navigated to HomeScreen
+[PASSED] :: 2017-08-24:20:49:04 :: <b>[PASS]</b> Click on Element : Successfully click on GlobalDrawerButton

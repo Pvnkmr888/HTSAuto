@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><robot>
+<suite id="TS_Lyric_001" name="DAS_Android">
+<test name="As a user I want to verify that all Camera setting options">
+<kw name="Given  : &quot;Home Mode&quot; as precondition" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 20:34:23.913">&lt;b&gt;[FAIL]&lt;/b&gt; Get Stat Information : Stat not found by name - Security</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:34:25.025">&lt;b&gt;[FAIL]&lt;/b&gt; Could not set base station in home : 400</msg>
+<status critical="yes" endtime="20170824 20:34:25.025" starttime="20170824 20:34:18.083" status="FAIL"/>
+</kw>
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 20:34:54.782">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:OK</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:34:56.532">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Allow</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:35:10.535">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on xpath://XCUIElementTypeTextField[contains(@value,'https')]</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:35:11.807">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Return</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:35:12.852">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Done</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:35:36.746">&lt;b&gt;[FAIL]&lt;/b&gt;  Set Value to Element : EmailAddress Unable to Set Value on element. Error message - An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:35:36.746">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/vijaydeepakTESTCASENAME_2017_08_24_20_34_18/screenshot420822398037605083.png"&gt;&lt;img src="../screenShots/vijaydeepakTESTCASENAME_2017_08_24_20_34_18/screenshot420822398037605083.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:35:36.831">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Not able to set Email Address.</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:35:36.831">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/vijaydeepakTESTCASENAME_2017_08_24_20_34_18/screenshot6975696486342088147.png"&gt;&lt;img src="../screenShots/vijaydeepakTESTCASENAME_2017_08_24_20_34_18/screenshot6975696486342088147.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:35:38.685">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Password set to - Password1</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:35:39.689">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on NAME:Login_Button</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:36:00.608">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Unable to navigate to homepage. Could not find notification icon on homepage</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:36:00.608">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/vijaydeepakTESTCASENAME_2017_08_24_20_34_18/screenshot6956553240091116161.png"&gt;&lt;img src="../screenShots/vijaydeepakTESTCASENAME_2017_08_24_20_34_18/screenshot6956553240091116161.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<status critical="yes" endtime="20170824 20:36:00.608" starttime="20170824 20:34:25.063" status="FAIL"/>
+</kw>
+<kw name="Then  : verify the display of following:" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 20:36:00.613">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 20:36:00.614" starttime="20170824 20:36:00.613" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;CAMERA MICROPHONE&quot; is enabled" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 20:36:00.620">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 20:36:00.620" starttime="20170824 20:36:00.619" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;CAMERA MICROPHONE&quot; is disabled" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 20:36:00.627">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 20:36:00.627" starttime="20170824 20:36:00.627" status="FAIL"/>
+</kw>
+<doc>Get Stat Information : Stat not found by name - Security</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170824 20:36:00.634" starttime="20170824 20:34:18.076" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170824 20:36:00.634" starttime="20170824 20:34:18.076" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<status critical="yes" endtime="20170824 20:36:01.095" starttime="20170824 20:36:01.062" status="FAIL"/>
+</suite>
+</robot>

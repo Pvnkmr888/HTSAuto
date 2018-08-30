@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><robot>
+<suite id="TS_Lyric_001" name="DAS_Android">
+<test name="As a user I want to verify that all Camera setting options">
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 20:48:30.727">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:OK</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:48:32.535">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Allow</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:48:48.384">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on xpath://XCUIElementTypeTextField[contains(@value,'https')]</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:48:49.598">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Return</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:48:50.741">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Done</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:48:52.349">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on LoginButton</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:48:55.796">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Email Address set to - testaccount@mailinator.com</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:48:57.439">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Password set to - Password1</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:48:58.447">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on NAME:Login_Button</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:49:03.441">&lt;b&gt;[PASS]&lt;/b&gt; Login to Lyric : Successfully navigated to HomeScreen</msg>
+<status critical="yes" endtime="20170824 20:49:03.441" starttime="20170824 20:48:00.782" status="PASS"/>
+</kw>
+<kw name="When  : user clicks on &quot;HAMBURGER MENU&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 20:49:04.310">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on GlobalDrawerButton</msg>
+<status critical="yes" endtime="20170824 20:49:04.310" starttime="20170824 20:49:03.473" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;DAS DEVICE&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 20:49:17.359">&lt;b&gt;[FAIL]&lt;/b&gt; Get Mobile Element : name:Security', Unexpected Error occured - cannot forward the request Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused
+</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:49:17.359">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/vijaydeepakTESTCASENAME_2017_08_24_20_48_00/#Error : org.openqa.selenium.WebDriverException: Session [dd988cd2-88e3-45c8-9453-1f4f13248ea7] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Vijay-Deepaks-Mac-Book.local', ip: '192.168.0.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_51'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/vijaydeepakTESTCASENAME_2017_08_24_20_48_00/#Error : org.openqa.selenium.WebDriverException: Session [dd988cd2-88e3-45c8-9453-1f4f13248ea7] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Vijay-Deepaks-Mac-Book.local', ip: '192.168.0.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_51'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:49:17.367">&lt;b&gt;[FAIL]&lt;/b&gt; Click on Element : Element not found name:Security</msg>
+<msg html="yes" level="INFO" timestamp="20170824 20:49:17.367">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/vijaydeepakTESTCASENAME_2017_08_24_20_48_00/#Error : org.openqa.selenium.WebDriverException: Session [dd988cd2-88e3-45c8-9453-1f4f13248ea7] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Vijay-Deepaks-Mac-Book.local', ip: '192.168.0.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_51'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/vijaydeepakTESTCASENAME_2017_08_24_20_48_00/#Error : org.openqa.selenium.WebDriverException: Session [dd988cd2-88e3-45c8-9453-1f4f13248ea7] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Vijay-Deepaks-Mac-Book.local', ip: '192.168.0.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_51'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<status critical="yes" endtime="20170824 20:49:17.367" starttime="20170824 20:49:04.312" status="FAIL"/>
+</kw>
+<kw name="Then  : verify the display of following:" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 20:49:17.371">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 20:49:17.372" starttime="20170824 20:49:17.371" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;CAMERA MICROPHONE&quot; is enabled" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 20:49:17.377">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 20:49:17.377" starttime="20170824 20:49:17.377" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;CAMERA MICROPHONE&quot; is disabled" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 20:49:17.382">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 20:49:17.383" starttime="20170824 20:49:17.382" status="FAIL"/>
+</kw>
+<tags>
+<tag>TestName::As a user I want to verify that all Camera setting options</tag>
+<tag>Group::dasBasestationCameraSettingsAndMicrophone</tag>
+<tag>SolutionCategory::LyricRefactor</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::c85d7cb996a05d26abb89c93df86d62af5486f1f</tag>
+<tag>DeviceSize::IOS_Medium</tag>
+<tag>OperatingSystem::IOS-10.3.3</tag>
+<tag>CloudEnvironment::Chil Das(Test)</tag>
+<tag>AccessoryName::testaccount@mailinator.com</tag>
+<tag>BuildNumber:: IOS - 4</tag>
+<tag>TestReportURL::http://10.79.42.121:8080/results/DAS_Android_2017_08_24_20_48_00/rebot/report.html#tags?Group::As a user I want to verify that all Camera setting options</tag>
+</tags>
+<status critical="yes" endtime="20170824 20:49:17.388" starttime="20170824 20:48:00.765" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170824 20:49:17.389" starttime="20170824 20:48:00.765" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<status critical="yes" endtime="20170824 20:49:17.489" starttime="20170824 20:49:17.456" status="FAIL"/>
+</suite>
+</robot>

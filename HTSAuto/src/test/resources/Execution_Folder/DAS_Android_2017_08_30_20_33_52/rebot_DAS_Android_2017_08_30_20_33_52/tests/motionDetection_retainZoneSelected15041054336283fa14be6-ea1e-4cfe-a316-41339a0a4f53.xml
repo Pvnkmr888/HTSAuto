@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><test name="motionDetection_retainZoneSelected">
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 20:34:12.641">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on ID:com.android.packageinstaller:id/permission_allow_button</msg>
+<msg html="yes" level="INFO" timestamp="20170830 20:34:21.531">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on WebServerURL</msg>
+<msg html="yes" level="INFO" timestamp="20170830 20:34:22.809">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on XPATH://*[@text='Chil Das(Test)']</msg>
+<msg html="yes" level="INFO" timestamp="20170830 20:34:22.809">&lt;b&gt;[PASS]&lt;/b&gt; [Set App Environment ] :  App environment set to Chil Das(Test)</msg>
+<msg html="yes" level="INFO" timestamp="20170830 20:34:23.661">&lt;b&gt;[PASS]&lt;/b&gt;  navigate back successfully</msg>
+<msg html="yes" level="INFO" timestamp="20170830 20:34:23.662">&lt;b&gt;[PASS]&lt;/b&gt; [Set App Environment ] : Navigating back to Login screen</msg>
+<msg html="yes" level="INFO" timestamp="20170830 20:34:24.623">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on LoginButton</msg>
+<msg html="yes" level="INFO" timestamp="20170830 20:34:32.217">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Email Address set to - autotest2@grr.la</msg>
+<msg html="yes" level="INFO" timestamp="20170830 20:34:39.079">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Password set to - Password1</msg>
+<msg html="yes" level="INFO" timestamp="20170830 20:34:39.766">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on LoginButton</msg>
+<msg html="yes" level="INFO" timestamp="20170830 20:34:45.954">&lt;b&gt;[PASS]&lt;/b&gt; Login to Lyric : Successfully navigated to HomeScreen</msg>
+<status critical="yes" endtime="20170830 20:34:45.955" starttime="20170830 20:33:53.734" status="PASS"/>
+</kw>
+<kw name="When  : user clicks on &quot;HAMBURGER MENU&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 20:34:53.669">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on GlobalDrawerButton</msg>
+<status critical="yes" endtime="20170830 20:34:53.669" starttime="20170830 20:34:46.002" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;DAS DEVICE&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 20:34:54.614">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on xpath://*[@text='My Apollo']</msg>
+<status critical="yes" endtime="20170830 20:34:54.614" starttime="20170830 20:34:53.676" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;BASE STATION SETTINGS&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 20:34:55.115">&lt;b&gt;[PASS]&lt;/b&gt; swipe up to focus on Base station menu was successfull</msg>
+<msg html="yes" level="INFO" timestamp="20170830 20:34:56.858">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on BaseStation_Option</msg>
+<status critical="yes" endtime="20170830 20:34:56.858" starttime="20170830 20:34:54.621" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;CAMERA SETTINGS&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 20:34:57.818">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on Base_StationCamera</msg>
+<status critical="yes" endtime="20170830 20:34:57.819" starttime="20170830 20:34:56.865" status="PASS"/>
+</kw>
+<kw name="And  : user taps on &quot;MOTION DETECTION&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 20:34:59.588">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on MotionDetectionLabel</msg>
+<msg html="yes" level="INFO" timestamp="20170830 20:34:59.588">&lt;b&gt;[PASS]&lt;/b&gt; Tapped on Motion Detection</msg>
+<status critical="yes" endtime="20170830 20:34:59.589" starttime="20170830 20:34:57.829" status="PASS"/>
+</kw>
+<kw name="When  : user taps on &quot;ZONE2&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 20:35:07.354">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on MotionDetection_Zone2</msg>
+<status critical="yes" endtime="20170830 20:35:07.354" starttime="20170830 20:34:59.598" status="PASS"/>
+</kw>
+<kw name="And  : verify &quot;ENABLE DETECTION ZONE&quot; is &quot;selected&quot;" type="kw">
+<kw name="And  : verify &quot;ENABLE DETECTION ZONE&quot; is &quot;selected&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 20:35:38.547">&lt;b&gt;[FAIL]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'verify "ENABLE DETECTION ZONE" is "selected"'. Error Occured - null</msg>
+<status critical="yes" endtime="20170830 20:35:42.951" starttime="20170830 20:35:33.727" status="FAIL"/>
+</kw>
+<kw name="Then  : user force kill and relaunches the app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170830 20:35:59.921">&lt;b&gt;[FAIL]&lt;/b&gt; Close and Reopen App : Failed forced close the app and reopen it. Error occured : Session [600fbf58-4e20-4480-a822-bc7af23a3d5d] was terminated due to TIMEOUT
+Command duration or timeout: 10 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.honeywell.android.lyric, fullReset=false, deviceName=8775bef9, platform=ANDROID, deviceUDID=8775bef9, desired={appPackage=com.honeywell.android.lyric, app=/Users/h242928/Desktop/Lyric41.apk, commandTimeout=300, appWaitActivity=, appWaitPackage=com.honeywell.android.lyric, version=, fullReset=false, deviceName=Samsung Galaxy S6, platform=ANDROID, appActivity=com.honeywell.granite.graniteui.presentation.activity.login.LoginActivity, autoLaunch=false, idleTimeout=1000, automationName=appium, name=motionDetection_retainZoneSelected, browserName=Samsung Galaxy S6 Device, platformName=Android}, platformVersion=6.0.1, webStorageEnabled=false, automationName=appium, takesScreenshot=true, browserName=Samsung Galaxy S6 Device, javascriptEnabled=true, platformName=Android, deviceManufacturer=OnePlus, app=/Users/h242928/Desktop/Lyric41.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, commandTimeout=300, appWaitActivity=, appWaitPackage=com.honeywell.android.lyric, databaseEnabled=false, version=, appActivity=com.honeywell.granite.graniteui.presentation.activity.login.LoginActivity, autoLaunch=false, idleTimeout=1000, locationContextEnabled=false, name=motionDetection_retainZoneSelected, deviceModel=ONE A2003}]
+Session ID: 600fbf58-4e20-4480-a822-bc7af23a3d5d</msg>
+<msg html="yes" level="INFO" timestamp="20170830 20:35:59.921">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_30_20_33_53/#Error : org.openqa.selenium.WebDriverException: Session [600fbf58-4e20-4480-a822-bc7af23a3d5d] was terminated due to TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_30_20_33_53/#Error : org.openqa.selenium.WebDriverException: Session [600fbf58-4e20-4480-a822-bc7af23a3d5d] was terminated due to TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170830 20:35:59.932">&lt;b&gt;[FAIL]&lt;/b&gt; Close and Reopen App : Failed</msg>
+<msg html="yes" level="INFO" timestamp="20170830 20:35:59.932">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_30_20_33_53/#Error : org.openqa.selenium.WebDriverException: Session [600fbf58-4e20-4480-a822-bc7af23a3d5d] was terminated due to TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_30_20_33_53/#Error : org.openqa.selenium.WebDriverException: Session [600fbf58-4e20-4480-a822-bc7af23a3d5d] was terminated due to TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<status critical="yes" endtime="20170830 20:35:59.933" starttime="20170830 20:35:59.454" status="FAIL"/>
+</kw>
+</kw>
+<doc>Execute Keyword : Not able to execute Step - 'verify "ENABLE DETECTION ZONE" is "selected"'. Error Occured - null</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170830 20:35:59.949" starttime="20170830 20:33:53.716" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170830 20:35:59.949" starttime="20170830 20:33:53.716" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>

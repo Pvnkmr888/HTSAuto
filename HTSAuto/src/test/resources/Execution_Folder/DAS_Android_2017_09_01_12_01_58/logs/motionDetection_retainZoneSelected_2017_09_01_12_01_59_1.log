@@ -1,0 +1,20 @@
+[PASSED] :: 2017-09-01:12:03:09 :: <b>[PASS]</b> Click on Element : Successfully click on name:OK
+[PASSED] :: 2017-09-01:12:03:11 :: <b>[PASS]</b> Click on Element : Successfully click on name:Allow
+[PASSED] :: 2017-09-01:12:03:31 :: <b>[PASS]</b> Click on Element : Successfully click on xpath://XCUIElementTypeTextField[contains(@value,'https')]
+[PASSED] :: 2017-09-01:12:03:32 :: <b>[PASS]</b> Click on Element : Successfully click on name:Return
+[PASSED] :: 2017-09-01:12:03:33 :: <b>[PASS]</b> Click on Element : Successfully click on name:Chil Das(Test)
+[PASSED] :: 2017-09-01:12:03:34 :: <b>[PASS]</b> Click on Element : Successfully click on name:Done
+[PASSED] :: 2017-09-01:12:03:35 :: <b>[PASS]</b> Click on Element : Successfully click on LoginButton
+[PASSED] :: 2017-09-01:12:03:37 :: <b>[PASS]</b> Login To Lyric : Email Address set to - dastest1@grr.la
+[PASSED] :: 2017-09-01:12:03:39 :: <b>[PASS]</b> Login To Lyric : Password set to - Password1
+[PASSED] :: 2017-09-01:12:03:40 :: <b>[PASS]</b> Click on Element : Successfully click on NAME:Login_Button
+[PASSED] :: 2017-09-01:12:03:44 :: <b>[PASS]</b> Login to Lyric : Successfully navigated to HomeScreen
+[PASSED] :: 2017-09-01:12:03:52 :: <b>[PASS]</b> Click on Element : Successfully click on GlobalDrawerButton
+[PASSED] :: 2017-09-01:12:03:54 :: <b>[PASS]</b> Click on Element : Successfully click on name:My Apollo
+[PASSED] :: 2017-09-01:12:03:59 :: <b>[PASS]</b> swipe up to focus on Base station menu was successfull
+[PASSED] :: 2017-09-01:12:04:00 :: <b>[PASS]</b> Click on Element : Successfully click on BaseStation_Option
+[PASSED] :: 2017-09-01:12:04:01 :: <b>[PASS]</b> Click on Element : Successfully click on Base_StationCamera
+[PASSED] :: 2017-09-01:12:04:03 :: <b>[PASS]</b> Click on Element : Successfully click on MotionDetectionLabel
+[PASSED] :: 2017-09-01:12:04:03 :: <b>[PASS]</b> Tapped on Motion Detection
+[PASSED] :: 2017-09-01:12:04:14 :: <b>[PASS]</b> Click on Element : Successfully click on MotionDetection_Zone4
+[PASSED] :: 2017-09-01:12:04:15 :: <b>[PASS]</b> Click on Element : Successfully click on xpath://*[contains(@name,'Enable this Detection Zone')]

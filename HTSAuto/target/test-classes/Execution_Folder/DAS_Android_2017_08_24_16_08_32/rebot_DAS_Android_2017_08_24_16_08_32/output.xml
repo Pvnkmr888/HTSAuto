@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><robot>
+<suite id="TS_Lyric_001" name="DAS_Android">
+<test name="As a user I want to verify that all Camera setting options">
+<kw name="Given  : &quot;Home Mode&quot; as precondition" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 16:08:39.880">&lt;b&gt;[PASS]&lt;/b&gt; Base station is set to home</msg>
+<status critical="yes" endtime="20170824 16:08:39.883" starttime="20170824 16:08:33.744" status="PASS"/>
+</kw>
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 16:08:40.518">&lt;b&gt;[FAIL]&lt;/b&gt; Instantiate Driver : Error occured. Error message - Error forwarding the new session cannot find : Capabilities [{app=/Users/vijaydeepak/Downloads/Lyric_IOS_4.app, commandTimeout=300, bundleId=com.honeywell.acs.lyric.platform , locationServicesEnabled=true, version=, launchTimeout=60000, fullReset=false, deviceName=iPhone 7, platform=MAC, sendKeyStrategy=grouped, autoLaunch=true, idleTimeout=1000, automationName=XCUITest, name=As a user I want to verify that all Camera setting options, browserName=iPhone 7 Simulator, platformName=iOS, autoAcceptAlerts=true}]
+</msg>
+<msg html="yes" level="INFO" timestamp="20170824 16:08:40.529">&lt;b&gt;[FAIL]&lt;/b&gt; [Set App Environment ] : Failed to open secret menu</msg>
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 16:08:40.530">&lt;b&gt;[FAIL]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user logs in to Lyric app'. Error Occured - null</msg>
+<status critical="yes" endtime="20170824 16:08:40.530" starttime="20170824 16:08:40.529" status="FAIL"/>
+</kw>
+<kw name="Then  : verify the display of following:" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 16:08:40.541">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 16:08:40.541" starttime="20170824 16:08:40.540" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;CAMERA MICROPHONE&quot; is enabled" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 16:08:40.549">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 16:08:40.549" starttime="20170824 16:08:40.548" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;CAMERA MICROPHONE&quot; is disabled" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 16:08:40.558">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 16:08:40.559" starttime="20170824 16:08:40.558" status="FAIL"/>
+</kw>
+</kw>
+<doc>Instantiate Driver : Error occured. Error message - Error forwarding the new session cannot find : Capabilities [{app=/Users/vijaydeepak/Downloads/Lyric_IOS_4.app, commandTimeout=300, bundleId=com.honeywell.acs.lyric.platform , locationServicesEnabled=true, version=, launchTimeout=60000, fullReset=false, deviceName=iPhone 7, platform=MAC, sendKeyStrategy=grouped, autoLaunch=true, idleTimeout=1000, automationName=XCUITest, name=As a user I want to verify that all Camera setting options, browserName=iPhone 7 Simulator, platformName=iOS, autoAcceptAlerts=true}]
+</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170824 16:08:40.570" starttime="20170824 16:08:33.731" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170824 16:08:40.571" starttime="20170824 16:08:33.731" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<status critical="yes" endtime="20170824 16:08:40.816" starttime="20170824 16:08:40.737" status="FAIL"/>
+</suite>
+</robot>

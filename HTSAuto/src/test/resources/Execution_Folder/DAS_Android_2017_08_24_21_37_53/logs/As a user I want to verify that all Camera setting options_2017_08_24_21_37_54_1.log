@@ -1,0 +1,20 @@
+[PASSED] :: 2017-08-24:21:38:24 :: <b>[PASS]</b> Click on Element : Successfully click on name:OK
+[PASSED] :: 2017-08-24:21:38:26 :: <b>[PASS]</b> Click on Element : Successfully click on name:Allow
+[PASSED] :: 2017-08-24:21:38:40 :: <b>[PASS]</b> Click on Element : Successfully click on xpath://XCUIElementTypeTextField[contains(@value,'https')]
+[PASSED] :: 2017-08-24:21:38:41 :: <b>[PASS]</b> Click on Element : Successfully click on name:Return
+[PASSED] :: 2017-08-24:21:38:42 :: <b>[PASS]</b> Click on Element : Successfully click on name:Done
+[PASSED] :: 2017-08-24:21:38:44 :: <b>[PASS]</b> Click on Element : Successfully click on LoginButton
+[PASSED] :: 2017-08-24:21:38:46 :: <b>[PASS]</b> Login To Lyric : Email Address set to - testaccount@mailinator.com
+[PASSED] :: 2017-08-24:21:38:48 :: <b>[PASS]</b> Login To Lyric : Password set to - Password1
+[PASSED] :: 2017-08-24:21:38:49 :: <b>[PASS]</b> Click on Element : Successfully click on NAME:Login_Button
+[PASSED] :: 2017-08-24:21:38:54 :: <b>[PASS]</b> Login to Lyric : Successfully navigated to HomeScreen
+[PASSED] :: 2017-08-24:21:38:55 :: <b>[PASS]</b> Click on Element : Successfully click on GlobalDrawerButton
+[PASSED] :: 2017-08-24:21:38:57 :: <b>[PASS]</b> Click on Element : Successfully click on name:Security
+[PASSED] :: 2017-08-24:21:39:03 :: <b>[PASS]</b> swipe up to focus on Base station menu was successfull
+[PASSED] :: 2017-08-24:21:39:04 :: <b>[PASS]</b> Click on Element : Successfully click on BaseStation_Option
+[PASSED] :: 2017-08-24:21:39:05 :: <b>[PASS]</b> Click on Element : Successfully click on Base_StationCamera
+[PASSED] :: 2017-08-24:21:39:06 :: <b>[PASS]</b> MOTION DETECTION is displayed
+[PASSED] :: 2017-08-24:21:39:06 :: <b>[PASS]</b> MICRO PHONE is displayed
+[PASSED] :: 2017-08-24:21:39:06 :: <b>[PASS]</b> NIGHT VISION is displayed
+[PASSED] :: 2017-08-24:21:39:06 :: <b>[PASS]</b> VIDEO QUALITY is displayed
+[PASSED] :: 2017-08-24:21:39:07 :: <b>[PASS]</b> CAMERA MICROPHONE enabled already

@@ -1,0 +1,19 @@
+[PASSED] :: 2017-08-30:14:45:12 :: <b>[PASS]</b> Click on Element : Successfully click on name:OK
+[PASSED] :: 2017-08-30:14:45:13 :: <b>[PASS]</b> Click on Element : Successfully click on name:Allow
+[PASSED] :: 2017-08-30:14:45:33 :: <b>[PASS]</b> Click on Element : Successfully click on xpath://XCUIElementTypeTextField[contains(@value,'https')]
+[PASSED] :: 2017-08-30:14:45:35 :: <b>[PASS]</b> Click on Element : Successfully click on name:Return
+[PASSED] :: 2017-08-30:14:45:36 :: <b>[PASS]</b> Click on Element : Successfully click on name:Chil Das(Test)
+[PASSED] :: 2017-08-30:14:45:37 :: <b>[PASS]</b> Click on Element : Successfully click on name:Done
+[PASSED] :: 2017-08-30:14:45:38 :: <b>[PASS]</b> Click on Element : Successfully click on LoginButton
+[PASSED] :: 2017-08-30:14:45:40 :: <b>[PASS]</b> Login To Lyric : Email Address set to - autotest2@grr.la
+[PASSED] :: 2017-08-30:14:45:42 :: <b>[PASS]</b> Login To Lyric : Password set to - Password1
+[PASSED] :: 2017-08-30:14:45:43 :: <b>[PASS]</b> Click on Element : Successfully click on NAME:Login_Button
+[PASSED] :: 2017-08-30:14:45:48 :: <b>[PASS]</b> Login to Lyric : Successfully navigated to HomeScreen
+[PASSED] :: 2017-08-30:14:45:56 :: <b>[PASS]</b> Click on Element : Successfully click on GlobalDrawerButton
+[PASSED] :: 2017-08-30:14:45:58 :: <b>[PASS]</b> Click on Element : Successfully click on name:My Apollo
+[PASSED] :: 2017-08-30:14:46:03 :: <b>[PASS]</b> swipe up to focus on Base station menu was successfull
+[PASSED] :: 2017-08-30:14:46:04 :: <b>[PASS]</b> Click on Element : Successfully click on BaseStation_Option
+[PASSED] :: 2017-08-30:14:46:05 :: <b>[PASS]</b> Click on Element : Successfully click on Base_StationCamera
+[PASSED] :: 2017-08-30:14:46:07 :: <b>[PASS]</b> Click on Element : Successfully click on MotionDetectionLabel
+[PASSED] :: 2017-08-30:14:46:07 :: <b>[PASS]</b> Tapped on Motion Detection
+[PASSED] :: 2017-08-30:14:46:17 :: <b>[PASS]</b> Click on Element : Successfully click on MotionDetection_Zone1

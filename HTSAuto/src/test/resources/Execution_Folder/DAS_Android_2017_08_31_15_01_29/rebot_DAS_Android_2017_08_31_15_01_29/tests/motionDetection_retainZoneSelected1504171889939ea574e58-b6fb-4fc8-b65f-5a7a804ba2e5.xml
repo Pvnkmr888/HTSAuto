@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><test name="motionDetection_retainZoneSelected">
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 15:02:43.966">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:OK</msg>
+<msg html="yes" level="INFO" timestamp="20170831 15:02:44.634">&lt;b&gt;[FAIL]&lt;/b&gt; Is Mobile Element Available : WebDriver Exception Occured - cannot forward the request Connect to 10.77.15.66:4723 [/10.77.15.66] failed: Connection refused (Connection refused)
+</msg>
+<msg html="yes" level="INFO" timestamp="20170831 15:02:44.634">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_31_15_01_30/#Error : org.openqa.selenium.WebDriverException: Session [44f5c4e8-0ca8-40f6-9189-41c675d34b4a] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_31_15_01_30/#Error : org.openqa.selenium.WebDriverException: Session [44f5c4e8-0ca8-40f6-9189-41c675d34b4a] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170831 15:02:44.651">&lt;b&gt;[FAIL]&lt;/b&gt; Is Mobile Element Available : WebDriver Exception Occured - Session [44f5c4e8-0ca8-40f6-9189-41c675d34b4a] was terminated due to FORWARDING_TO_NODE_FAILED
+</msg>
+<msg html="yes" level="INFO" timestamp="20170831 15:02:44.652">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_31_15_01_30/#Error : org.openqa.selenium.WebDriverException: Session [44f5c4e8-0ca8-40f6-9189-41c675d34b4a] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_31_15_01_30/#Error : org.openqa.selenium.WebDriverException: Session [44f5c4e8-0ca8-40f6-9189-41c675d34b4a] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170831 15:02:44.762">&lt;b&gt;[FAIL]&lt;/b&gt; Get Mobile Element : LyricLogo', Unexpected Error occured - Session [44f5c4e8-0ca8-40f6-9189-41c675d34b4a] was terminated due to FORWARDING_TO_NODE_FAILED
+</msg>
+<msg html="yes" level="INFO" timestamp="20170831 15:02:44.762">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_31_15_01_30/#Error : org.openqa.selenium.WebDriverException: Session [44f5c4e8-0ca8-40f6-9189-41c675d34b4a] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_31_15_01_30/#Error : org.openqa.selenium.WebDriverException: Session [44f5c4e8-0ca8-40f6-9189-41c675d34b4a] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170831 15:02:44.778">&lt;b&gt;[FAIL]&lt;/b&gt; Get Mobile Element : HoneywellImage', Unexpected Error occured - Session [44f5c4e8-0ca8-40f6-9189-41c675d34b4a] was terminated due to FORWARDING_TO_NODE_FAILED
+</msg>
+<msg html="yes" level="INFO" timestamp="20170831 15:02:44.778">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_31_15_01_30/#Error : org.openqa.selenium.WebDriverException: Session [44f5c4e8-0ca8-40f6-9189-41c675d34b4a] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_31_15_01_30/#Error : org.openqa.selenium.WebDriverException: Session [44f5c4e8-0ca8-40f6-9189-41c675d34b4a] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170831 15:02:44.786">&lt;b&gt;[FAIL]&lt;/b&gt; [Set App Environment ] : Failed to open secret menu</msg>
+<msg html="yes" level="INFO" timestamp="20170831 15:02:44.786">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_31_15_01_30/#Error : org.openqa.selenium.WebDriverException: Session [44f5c4e8-0ca8-40f6-9189-41c675d34b4a] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_31_15_01_30/#Error : org.openqa.selenium.WebDriverException: Session [44f5c4e8-0ca8-40f6-9189-41c675d34b4a] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170831 15:02:44.796">&lt;b&gt;[FAIL]&lt;/b&gt; Is Mobile Element Available : WebDriver Exception Occured - Session [44f5c4e8-0ca8-40f6-9189-41c675d34b4a] was terminated due to FORWARDING_TO_NODE_FAILED
+</msg>
+<msg html="yes" level="INFO" timestamp="20170831 15:02:44.801">&lt;b&gt;[FAIL]&lt;/b&gt; Get Mobile Element : name:Chil Das(Test)', Unexpected Error occured - Session [44f5c4e8-0ca8-40f6-9189-41c675d34b4a] was terminated due to FORWARDING_TO_NODE_FAILED
+</msg>
+<msg html="yes" level="INFO" timestamp="20170831 15:02:44.801">&lt;b&gt;[FAIL]&lt;/b&gt; Click on Element : Element not found name:Chil Das(Test)</msg>
+<msg html="yes" level="INFO" timestamp="20170831 15:02:44.807">&lt;b&gt;[FAIL]&lt;/b&gt; Get Mobile Element : name:Done', Unexpected Error occured - Session [44f5c4e8-0ca8-40f6-9189-41c675d34b4a] was terminated due to FORWARDING_TO_NODE_FAILED
+</msg>
+<msg html="yes" level="INFO" timestamp="20170831 15:02:44.807">&lt;b&gt;[FAIL]&lt;/b&gt; Click on Element : Element not found name:Done</msg>
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 15:02:44.812">&lt;b&gt;[FAIL]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user logs in to Lyric app'. Error Occured - null</msg>
+<status critical="yes" endtime="20170831 15:02:44.812" starttime="20170831 15:02:44.812" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;ENABLE DETECTION ZONE&quot; is &quot;selected&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 15:02:44.871">&lt;b&gt;[FAIL]&lt;/b&gt; Get Mobile Element : EnabledDetectionZone', Unexpected Error occured - Session [44f5c4e8-0ca8-40f6-9189-41c675d34b4a] was terminated due to FORWARDING_TO_NODE_FAILED
+</msg>
+<kw name="Then  : verify &quot;ENABLE DETECTION ZONE&quot; is &quot;selected&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 15:02:44.871">&lt;b&gt;[FAIL]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'verify "ENABLE DETECTION ZONE" is "selected"'. Error Occured - null</msg>
+<status critical="yes" endtime="20170831 15:02:44.871" starttime="20170831 15:02:44.871" status="FAIL"/>
+</kw>
+</kw>
+</kw>
+<doc>Is Mobile Element Available : WebDriver Exception Occured - cannot forward the request Connect to 10.77.15.66:4723 [/10.77.15.66] failed: Connection refused (Connection refused)
+</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170831 15:02:44.882" starttime="20170831 15:01:30.012" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170831 15:02:44.883" starttime="20170831 15:01:30.012" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>

@@ -1,0 +1,22 @@
+[PASSED] :: 2017-08-29:19:16:18 :: <b>[PASS]</b> Click on Element : Successfully click on ID:com.android.packageinstaller:id/permission_allow_button
+[PASSED] :: 2017-08-29:19:16:27 :: <b>[PASS]</b> Click on Element : Successfully click on WebServerURL
+[PASSED] :: 2017-08-29:19:16:28 :: <b>[PASS]</b> Click on Element : Successfully click on XPATH://*[@text='Chil Das(Test)']
+[PASSED] :: 2017-08-29:19:16:28 :: <b>[PASS]</b> [Set App Environment ] :  App environment set to Chil Das(Test)
+[PASSED] :: 2017-08-29:19:16:29 :: <b>[PASS]</b>  navigate back successfully
+[PASSED] :: 2017-08-29:19:16:29 :: <b>[PASS]</b> [Set App Environment ] : Navigating back to Login screen
+[PASSED] :: 2017-08-29:19:16:30 :: <b>[PASS]</b> Click on Element : Successfully click on LoginButton
+[PASSED] :: 2017-08-29:19:16:38 :: <b>[PASS]</b> Login To Lyric : Email Address set to - autotest2@grr.la
+[PASSED] :: 2017-08-29:19:16:45 :: <b>[PASS]</b> Login To Lyric : Password set to - Password1
+[PASSED] :: 2017-08-29:19:16:45 :: <b>[PASS]</b> Click on Element : Successfully click on LoginButton
+[PASSED] :: 2017-08-29:19:16:53 :: <b>[PASS]</b> Login to Lyric : Successfully navigated to HomeScreen
+[PASSED] :: 2017-08-29:19:17:00 :: <b>[PASS]</b> Click on Element : Successfully click on GlobalDrawerButton
+[PASSED] :: 2017-08-29:19:17:01 :: <b>[PASS]</b> Click on Element : Successfully click on xpath://*[@text='My Apollo']
+[PASSED] :: 2017-08-29:19:17:02 :: <b>[PASS]</b> swipe up to focus on Base station menu was successfull
+[PASSED] :: 2017-08-29:19:17:03 :: <b>[PASS]</b> Click on Element : Successfully click on BaseStation_Option
+[PASSED] :: 2017-08-29:19:17:04 :: <b>[PASS]</b> Click on Element : Successfully click on Base_StationCamera
+[PASSED] :: 2017-08-29:19:17:05 :: <b>[PASS]</b> Click on Element : Successfully click on MotionDetectionLabel
+[PASSED] :: 2017-08-29:19:17:05 :: <b>[PASS]</b> Tapped on Motion Detection
+[PASSED] :: 2017-08-29:19:17:13 :: <b>[PASS]</b> Click on Element : Successfully click on MotionDetection_Zone1
+[PASSED] :: 2017-08-29:19:17:14 :: <b>[PASS]</b> ZONE1 selected
+[PASSED] :: 2017-08-29:19:17:14 :: <b>[PASS]</b> Click on Element : Successfully click on MotionDetection_Zone2
+[PASSED] :: 2017-08-29:19:17:15 :: <b>[PASS]</b> ZONE2 selected

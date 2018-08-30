@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><robot>
+<suite id="TS_Lyric_001" name="DAS_Android">
+<test name="motionDetection_verifyZonesSensitivityLevel">
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 15:17:25.340">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on ID:com.android.packageinstaller:id/permission_allow_button</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:17:39.164">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on WebServerURL</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:17:40.553">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on XPATH://*[@text='Chil Das(Test)']</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:17:40.554">&lt;b&gt;[PASS]&lt;/b&gt; [Set App Environment ] :  App environment set to Chil Das(Test)</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:17:41.277">&lt;b&gt;[PASS]&lt;/b&gt;  navigate back successfully</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:17:41.277">&lt;b&gt;[PASS]&lt;/b&gt; [Set App Environment ] : Navigating back to Login screen</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:17:42.136">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on LoginButton</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:17:54.455">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Email Address set to - dastest1@grr.la</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:18:01.217">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Password set to - Password1</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:18:01.767">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on LoginButton</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:18:07.312">&lt;b&gt;[PASS]&lt;/b&gt; Login to Lyric : Successfully navigated to HomeScreen</msg>
+<status critical="yes" endtime="20170829 15:18:07.312" starttime="20170829 15:17:05.987" status="PASS"/>
+</kw>
+<kw name="When  : user clicks on &quot;HAMBURGER MENU&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 15:18:15.111">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on GlobalDrawerButton</msg>
+<status critical="yes" endtime="20170829 15:18:15.111" starttime="20170829 15:18:07.356" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;DAS DEVICE&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 15:18:15.837">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on xpath://*[@text='My Apollo']</msg>
+<status critical="yes" endtime="20170829 15:18:15.838" starttime="20170829 15:18:15.118" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;BASE STATION SETTINGS&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 15:18:16.483">&lt;b&gt;[PASS]&lt;/b&gt; swipe up to focus on Base station menu was successfull</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:18:22.093">&lt;b&gt;[FAIL]&lt;/b&gt; Get Mobile Element : BaseStation_Option', Unexpected Error occured - A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:18:22.094">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_29_15_17_05/#Error : org.openqa.selenium.WebDriverException: Session [5d5f9330-1875-476e-b7ee-1e662aea4f03] was terminated due to BROWSER_TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.14.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_29_15_17_05/#Error : org.openqa.selenium.WebDriverException: Session [5d5f9330-1875-476e-b7ee-1e662aea4f03] was terminated due to BROWSER_TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.14.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:18:22.113">&lt;b&gt;[FAIL]&lt;/b&gt; Click on Element : Element not found BaseStation_Option</msg>
+<msg html="yes" level="INFO" timestamp="20170829 15:18:22.113">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_29_15_17_05/#Error : org.openqa.selenium.WebDriverException: Session [5d5f9330-1875-476e-b7ee-1e662aea4f03] was terminated due to BROWSER_TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.14.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_29_15_17_05/#Error : org.openqa.selenium.WebDriverException: Session [5d5f9330-1875-476e-b7ee-1e662aea4f03] was terminated due to BROWSER_TIMEOUT
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.14.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<status critical="yes" endtime="20170829 15:18:22.114" starttime="20170829 15:18:15.845" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;Zone1&quot; is displayed &quot;Silent Low Normal High&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170829 15:18:22.131">&lt;b&gt;[FAIL]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'verify "Zone1" is displayed "Silent Low Normal High"'. Error Occured - wrong number of arguments</msg>
+<status critical="yes" endtime="20170829 15:18:22.131" starttime="20170829 15:18:22.131" status="FAIL"/>
+</kw>
+<doc>Execute Keyword : Not able to execute Step - 'verify "Zone1" is displayed "Silent Low Normal High"'. Error Occured - wrong number of arguments</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170829 15:18:22.151" starttime="20170829 15:17:05.972" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170829 15:18:22.152" starttime="20170829 15:17:05.972" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<status critical="yes" endtime="20170829 15:18:22.420" starttime="20170829 15:18:22.379" status="FAIL"/>
+</suite>
+</robot>

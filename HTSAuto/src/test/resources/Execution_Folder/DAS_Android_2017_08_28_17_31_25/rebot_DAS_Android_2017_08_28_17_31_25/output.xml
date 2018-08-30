@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><robot>
+<suite id="TS_Lyric_001" name="DAS_Android">
+<test name="motionDetection_verifyZonesSensitivityLevel - #2">
+<kw name="Given  : user is &quot;Das Device Settings&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 17:31:26.378">&lt;b&gt;[FAIL]&lt;/b&gt; Given  - 'user is "Das Device Settings"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^user is (.*) Device (.*)$")&lt;/p&gt;&lt;/p&gt;</msg>
+<status critical="yes" endtime="20170828 17:31:26.379" starttime="20170828 17:31:26.378" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;Zone2&quot; is displayed &quot;Low Normal High&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 17:31:26.386">&lt;b&gt;[FAIL]&lt;/b&gt; Then  - 'verify &lt;Zones&gt; is displayed "Low Normal High"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^verify (.*) is displayed (.*) Normal (.*)$")&lt;/p&gt;&lt;/p&gt;</msg>
+<status critical="yes" endtime="20170828 17:31:26.386" starttime="20170828 17:31:26.385" status="FAIL"/>
+</kw>
+<doc>Given  - 'user is "Das Device Settings"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^user is (.*) Device (.*)$")&lt;/p&gt;&lt;/p&gt;</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170828 17:31:26.396" starttime="20170828 17:31:26.376" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170828 17:31:26.397" starttime="20170828 17:31:26.376" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="motionDetection_verifyZonesSensitivityLevel - #3">
+<kw name="Given  : user is &quot;Das Device Settings&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 17:31:26.410">&lt;b&gt;[FAIL]&lt;/b&gt; Given  - 'user is "Das Device Settings"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^user is (.*) Device (.*)$")&lt;/p&gt;&lt;/p&gt;</msg>
+<status critical="yes" endtime="20170828 17:31:26.410" starttime="20170828 17:31:26.409" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;Zone3&quot; is displayed &quot;Low Normal High&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 17:31:26.416">&lt;b&gt;[FAIL]&lt;/b&gt; Then  - 'verify &lt;Zones&gt; is displayed "Low Normal High"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^verify (.*) is displayed (.*) Normal (.*)$")&lt;/p&gt;&lt;/p&gt;</msg>
+<status critical="yes" endtime="20170828 17:31:26.416" starttime="20170828 17:31:26.416" status="FAIL"/>
+</kw>
+<doc>Given  - 'user is "Das Device Settings"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^user is (.*) Device (.*)$")&lt;/p&gt;&lt;/p&gt;</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170828 17:31:26.425" starttime="20170828 17:31:26.407" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170828 17:31:26.426" starttime="20170828 17:31:26.407" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="motionDetection_verifyZonesSensitivityLevel - #4">
+<kw name="Given  : user is &quot;Das Device Settings&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 17:31:26.449">&lt;b&gt;[FAIL]&lt;/b&gt; Given  - 'user is "Das Device Settings"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^user is (.*) Device (.*)$")&lt;/p&gt;&lt;/p&gt;</msg>
+<status critical="yes" endtime="20170828 17:31:26.450" starttime="20170828 17:31:26.449" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;Zone4&quot; is displayed &quot;Low Normal High&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 17:31:26.469">&lt;b&gt;[FAIL]&lt;/b&gt; Then  - 'verify &lt;Zones&gt; is displayed "Low Normal High"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^verify (.*) is displayed (.*) Normal (.*)$")&lt;/p&gt;&lt;/p&gt;</msg>
+<status critical="yes" endtime="20170828 17:31:26.469" starttime="20170828 17:31:26.469" status="FAIL"/>
+</kw>
+<doc>Given  - 'user is "Das Device Settings"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^user is (.*) Device (.*)$")&lt;/p&gt;&lt;/p&gt;</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170828 17:31:26.489" starttime="20170828 17:31:26.448" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170828 17:31:26.490" starttime="20170828 17:31:26.448" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="motionDetection_verifyZonesSensitivityLevel">
+<kw name="Given  : user is &quot;Das Device Settings&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 17:31:26.313">&lt;b&gt;[FAIL]&lt;/b&gt; Given  - 'user is "Das Device Settings"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^user is (.*) Device (.*)$")&lt;/p&gt;&lt;/p&gt;</msg>
+<status critical="yes" endtime="20170828 17:31:26.315" starttime="20170828 17:31:26.312" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;Zone1&quot; is displayed &quot;Low Normal High&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 17:31:26.351">&lt;b&gt;[FAIL]&lt;/b&gt; Then  - 'verify &lt;Zones&gt; is displayed "Low Normal High"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^verify (.*) is displayed (.*) Normal (.*)$")&lt;/p&gt;&lt;/p&gt;</msg>
+<status critical="yes" endtime="20170828 17:31:26.351" starttime="20170828 17:31:26.350" status="FAIL"/>
+</kw>
+<doc>Given  - 'user is "Das Device Settings"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^user is (.*) Device (.*)$")&lt;/p&gt;&lt;/p&gt;</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170828 17:31:26.365" starttime="20170828 17:31:26.306" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170828 17:31:26.365" starttime="20170828 17:31:26.306" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<status critical="yes" endtime="20170828 17:31:26.776" starttime="20170828 17:31:26.705" status="FAIL"/>
+</suite>
+</robot>

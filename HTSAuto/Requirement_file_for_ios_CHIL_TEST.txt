@@ -1,0 +1,11 @@
+Include Group	Group Name	Combine	Platform-Type-OS-Version	Name	Location	Environment	Test Data
+NO	DIYFlow		IOS-Device-IOS-.*	iPhone.*	Perfecto	Chil Das(Test)	"AcquisitionType=Specific, TestData='USERID=dastest@grr.la,PASSWORD=Password1,LOCATION1_NAME=No Location,LOCATION1_DEVICE1_NAME=No Device,ANDROID_UDID=ZY22392HXT'"
+	DasHomeSettings		IOS-Device-IOS-.*	iPhone.*	Perfecto	Chil Das(Test)	"AcquisitionType=Specific, TestData='USERID=dastest1qa@grr.la,PASSWORD=Password1,LOCATION1_NAME=7n2_8A1,LOCATION1_DEVICE1_NAME=Security'"
+	DasEntryExitSettings		IOS-Device-IOS-.*	iPhone.*	Perfecto	Chil Das(Test)	"AcquisitionType=Specific, TestData='USERID=dastest1qa@grr.la,PASSWORD=Password1,LOCATION1_NAME=7n2_8A1,LOCATION1_DEVICE1_NAME=Security'"
+	DasAwaySettings		IOS-Device-IOS-.*	iPhone.*	Perfecto	Chil Das(Test)	"AcquisitionType=Specific, TestData='USERID=dastest1qa@grr.la,PASSWORD=Password1,LOCATION1_NAME=7n2_8A1,LOCATION1_DEVICE1_NAME=Security'"
+	DasNightSettings		IOS-Device-IOS-.*	iPhone.*	Perfecto	Chil Das(Test)	"AcquisitionType=Specific, TestData='USERID=dastest1qa@grr.la,PASSWORD=Password1,LOCATION1_NAME=7n2_8A1,LOCATION1_DEVICE1_NAME=Security'"
+	dasBasestationRename		IOS-Device-IOS-.*	iPhone.*	Perfecto	Chil Das(Test)	"AcquisitionType=Specific, TestData='USERID=dastest1qa@grr.la,PASSWORD=Password1,LOCATION1_NAME=7n2_8A1,LOCATION1_DEVICE1_NAME=Security'"
+	dasBasestationCameraSettingsAndMicrophone		IOS-Device-IOS-.*	iPhone.*	Perfecto	Chil Das(Test)	"AcquisitionType=Specific, TestData='USERID=dastest1qa@grr.la,PASSWORD=Password1,LOCATION1_NAME=7n2_8A1,LOCATION1_DEVICE1_NAME=Security'"
+	CameraNightVision_Menu		IOS-Device-IOS-.*	iPhone.*	Perfecto	Chil Das(Test)	"AcquisitionType=Specific, TestData='USERID=dastest1qa@grr.la,PASSWORD=Password1,LOCATION1_NAME=7n2_8A1,LOCATION1_DEVICE1_NAME=Security'"
+	videoQualitySettingMenu		IOS-Device-IOS-.*	iPhone.*	Perfecto	Chil Das(Test)	"AcquisitionType=Specific, TestData='USERID=dastest1qa@grr.la,PASSWORD=Password1,LOCATION1_NAME=7n2_8A1,LOCATION1_DEVICE1_NAME=Security'"
+	CommandControl		IOS-Device-IOS-.*	iPhone.*	Perfecto	Chil Das(Test)	"AcquisitionType=Specific, TestData='USERID=dastest1qa@grr.la,PASSWORD=Password1,LOCATION1_NAME=7n2_8A1,LOCATION1_DEVICE1_NAME=Security'"

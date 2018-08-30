@@ -1,0 +1,6 @@
+[
+{"JasperStatType":"NA","TempScale":"Fahrenheit","SystemMode":"Auto","SetSleep":"Yes","HomeCoolTemp":"70","HomeHeatTemp":"65","AwayCoolTemp":"85","AwayHeatTemp":"80","SleepCoolTemp":"70","SleepHeatTemp":"70","SleepStartTime":"10:00 PM","SleepEndTime":"5:00 AM"},
+{"JasperStatType":"NA","TempScale":"Celsius","SystemMode":"Other","SetSleep":"No","HomeCoolTemp":"70","HomeHeatTemp":"65","AwayCoolTemp":"85","AwayHeatTemp":"80","SleepCoolTemp":"70","SleepHeatTemp":"70","SleepStartTime":"10:00 PM","SleepEndTime":"5:00 AM"},
+{"JasperStatType":"NA","TempScale":"Fahrenheit","SystemMode":"Other","SetSleep":"No","HomeCoolTemp":"70","HomeHeatTemp":"65","AwayCoolTemp":"85","AwayHeatTemp":"80","SleepCoolTemp":"70","SleepHeatTemp":"70","SleepStartTime":"10:00 PM","SleepEndTime":"5:00 AM"},
+{"JasperStatType":"NA","TempScale":"Fahrenheit","SystemMode":"Other","SetSleep":"No","HomeCoolTemp":"70","HomeHeatTemp":"65","AwayCoolTemp":"85","AwayHeatTemp":"80","SleepCoolTemp":"70","SleepHeatTemp":"70","SleepStartTime":"10:00 PM","SleepEndTime":"5:00 AM"}
+]

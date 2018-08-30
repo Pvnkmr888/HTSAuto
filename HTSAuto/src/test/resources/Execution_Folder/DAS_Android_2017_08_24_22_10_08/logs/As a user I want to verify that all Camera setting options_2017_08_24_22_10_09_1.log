@@ -1,0 +1,23 @@
+[PASSED] :: 2017-08-24:22:10:48 :: <b>[PASS]</b> Click on Element : Successfully click on name:OK
+[PASSED] :: 2017-08-24:22:10:50 :: <b>[PASS]</b> Click on Element : Successfully click on name:Allow
+[PASSED] :: 2017-08-24:22:11:05 :: <b>[PASS]</b> Click on Element : Successfully click on xpath://XCUIElementTypeTextField[contains(@value,'https')]
+[PASSED] :: 2017-08-24:22:11:06 :: <b>[PASS]</b> Click on Element : Successfully click on name:Return
+[PASSED] :: 2017-08-24:22:11:07 :: <b>[PASS]</b> Click on Element : Successfully click on name:Done
+[PASSED] :: 2017-08-24:22:11:09 :: <b>[PASS]</b> Click on Element : Successfully click on LoginButton
+[PASSED] :: 2017-08-24:22:11:13 :: <b>[PASS]</b> Login To Lyric : Email Address set to - testaccount@mailinator.com
+[PASSED] :: 2017-08-24:22:11:14 :: <b>[PASS]</b> Login To Lyric : Password set to - Password1
+[PASSED] :: 2017-08-24:22:11:16 :: <b>[PASS]</b> Click on Element : Successfully click on NAME:Login_Button
+[PASSED] :: 2017-08-24:22:11:19 :: <b>[PASS]</b> Login to Lyric : Successfully navigated to HomeScreen
+[PASSED] :: 2017-08-24:22:11:20 :: <b>[PASS]</b> Click on Element : Successfully click on GlobalDrawerButton
+[PASSED] :: 2017-08-24:22:11:21 :: <b>[PASS]</b> Click on Element : Successfully click on name:Security
+[PASSED] :: 2017-08-24:22:11:27 :: <b>[PASS]</b> swipe up to focus on Base station menu was successfull
+[PASSED] :: 2017-08-24:22:11:28 :: <b>[PASS]</b> Click on Element : Successfully click on BaseStation_Option
+[PASSED] :: 2017-08-24:22:11:29 :: <b>[PASS]</b> Click on Element : Successfully click on Base_StationCamera
+[PASSED] :: 2017-08-24:22:11:30 :: <b>[PASS]</b> MOTION DETECTION is displayed
+[PASSED] :: 2017-08-24:22:11:30 :: <b>[PASS]</b> MICRO PHONE is displayed
+[PASSED] :: 2017-08-24:22:11:31 :: <b>[PASS]</b> NIGHT VISION is displayed
+[PASSED] :: 2017-08-24:22:11:31 :: <b>[PASS]</b> VIDEO QUALITY is displayed
+[PASSED] :: 2017-08-24:22:11:32 :: <b>[PASS]</b> CAMERA MICROPHONE enabled already
+[PASSED] :: 2017-08-24:22:11:32 :: <b>[PASS]</b> CAMERA MICROPHONE is enabled
+[PASSED] :: 2017-08-24:22:11:33 :: <b>[PASS]</b> CAMERA MICROPHONE disabled already
+[PASSED] :: 2017-08-24:22:11:34 :: <b>[PASS]</b> CAMERA MICROPHONE is disabled

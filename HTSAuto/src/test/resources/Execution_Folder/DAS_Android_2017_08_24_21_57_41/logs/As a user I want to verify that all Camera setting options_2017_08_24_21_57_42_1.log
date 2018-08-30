@@ -1,0 +1,13 @@
+[PASSED] :: 2017-08-24:21:58:12 :: <b>[PASS]</b> Click on Element : Successfully click on name:OK
+[PASSED] :: 2017-08-24:21:58:14 :: <b>[PASS]</b> Click on Element : Successfully click on name:Allow
+[PASSED] :: 2017-08-24:21:58:29 :: <b>[PASS]</b> Click on Element : Successfully click on xpath://XCUIElementTypeTextField[contains(@value,'https')]
+[PASSED] :: 2017-08-24:21:58:30 :: <b>[PASS]</b> Click on Element : Successfully click on name:Return
+[PASSED] :: 2017-08-24:21:58:31 :: <b>[PASS]</b> Click on Element : Successfully click on name:Done
+[PASSED] :: 2017-08-24:21:58:33 :: <b>[PASS]</b> Click on Element : Successfully click on LoginButton
+[PASSED] :: 2017-08-24:21:58:41 :: <b>[PASS]</b> Login To Lyric : Email Address set to - testaccount@mailinator.com
+[PASSED] :: 2017-08-24:21:58:43 :: <b>[PASS]</b> Login To Lyric : Password set to - Password1
+[PASSED] :: 2017-08-24:21:58:44 :: <b>[PASS]</b> Click on Element : Successfully click on NAME:Login_Button
+[PASSED] :: 2017-08-24:21:58:47 :: <b>[PASS]</b> Login to Lyric : Successfully navigated to HomeScreen
+[PASSED] :: 2017-08-24:21:58:48 :: <b>[PASS]</b> Click on Element : Successfully click on GlobalDrawerButton
+[PASSED] :: 2017-08-24:21:58:50 :: <b>[PASS]</b> Click on Element : Successfully click on name:Security
+[PASSED] :: 2017-08-24:21:58:56 :: <b>[PASS]</b> swipe up to focus on Base station menu was successfull

@@ -1,0 +1,90 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.honeywell</groupId>
+	<artifactId>Mobile_Test_Framework</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+<!-- REPOSITORY TO LOOK INTO PLEASE DONOT CHANGE ANY THING -->
+	<repositories>
+		<repository>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<id>central</id>
+			<name>libs-release</name>
+			<url>http://artifactory.honeywell.com/artifactory/libs-release</url>
+			<releases>
+				<updatePolicy>always</updatePolicy>
+				<enabled>true</enabled>
+			</releases>
+		</repository>
+		<repository>
+			<snapshots />
+			<id>snapshots</id>
+			<name>libs-snapshot</name>
+			<url>http://artifactory.honeywell.com/artifactory/libs-snapshot</url>
+			<releases>
+				<updatePolicy>always</updatePolicy>
+				<enabled>true</enabled>
+			</releases>
+		</repository>
+	</repositories>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<snapshots />
+			<id>snapshots</id>
+			<name>plugins-snapshot</name>
+			<url>http://artifactory.honeywell.com/artifactory/plugins-snapshot</url>
+		</pluginRepository>
+	</pluginRepositories>
+
+	<dependencies>
+		<!-- FRAMEWORK DEPENDENCY -->
+		<dependency>
+			<groupId>com.honeywell</groupId>
+			<artifactId>uicoreframeworkwithbdd_dev</artifactId>
+			<version>4.8.1.7</version>
+		</dependency>
+
+		<!-- LYRIC SPECIFIC DEPENDENCIES -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-math3</artifactId>
+			<version>3.5</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.2.1</version>
+				<executions>
+					<execution>
+						<phase>test</phase>
+						<goals>
+							<goal>java</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<includePluginDependencies>true</includePluginDependencies>
+					<mainClass>com.honeywell.suiteExecutor.SuiteExecutor</mainClass>
+					<classpathScope>test</classpathScope>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

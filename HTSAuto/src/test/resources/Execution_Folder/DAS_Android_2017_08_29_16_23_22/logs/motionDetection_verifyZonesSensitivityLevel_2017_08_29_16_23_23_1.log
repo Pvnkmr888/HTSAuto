@@ -1,0 +1,19 @@
+[PASSED] :: 2017-08-29:16:23:44 :: <b>[PASS]</b> Click on Element : Successfully click on ID:com.android.packageinstaller:id/permission_allow_button
+[PASSED] :: 2017-08-29:16:23:52 :: <b>[PASS]</b> Click on Element : Successfully click on WebServerURL
+[PASSED] :: 2017-08-29:16:23:54 :: <b>[PASS]</b> Click on Element : Successfully click on XPATH://*[@text='Chil Das(Test)']
+[PASSED] :: 2017-08-29:16:23:54 :: <b>[PASS]</b> [Set App Environment ] :  App environment set to Chil Das(Test)
+[PASSED] :: 2017-08-29:16:23:55 :: <b>[PASS]</b>  navigate back successfully
+[PASSED] :: 2017-08-29:16:23:55 :: <b>[PASS]</b> [Set App Environment ] : Navigating back to Login screen
+[PASSED] :: 2017-08-29:16:23:56 :: <b>[PASS]</b> Click on Element : Successfully click on LoginButton
+[PASSED] :: 2017-08-29:16:24:03 :: <b>[PASS]</b> Login To Lyric : Email Address set to - dastest1@grr.la
+[PASSED] :: 2017-08-29:16:24:10 :: <b>[PASS]</b> Login To Lyric : Password set to - Password1
+[PASSED] :: 2017-08-29:16:24:11 :: <b>[PASS]</b> Click on Element : Successfully click on LoginButton
+[PASSED] :: 2017-08-29:16:24:23 :: <b>[PASS]</b> Login to Lyric : Successfully navigated to HomeScreen
+[PASSED] :: 2017-08-29:16:24:31 :: <b>[PASS]</b> Click on Element : Successfully click on GlobalDrawerButton
+[PASSED] :: 2017-08-29:16:24:32 :: <b>[PASS]</b> Click on Element : Successfully click on xpath://*[@text='My Apollo']
+[PASSED] :: 2017-08-29:16:24:32 :: <b>[PASS]</b> swipe up to focus on Base station menu was successfull
+[PASSED] :: 2017-08-29:16:24:33 :: <b>[PASS]</b> Click on Element : Successfully click on BaseStation_Option
+[PASSED] :: 2017-08-29:16:24:34 :: <b>[PASS]</b> Click on Element : Successfully click on Base_StationCamera
+[PASSED] :: 2017-08-29:16:24:36 :: <b>[PASS]</b> Click on Element : Successfully click on MotionDetectionLabel
+[PASSED] :: 2017-08-29:16:24:36 :: <b>[PASS]</b> Tapped on Motion Detection
+[PASSED] :: 2017-08-29:16:24:43 :: <b>[PASS]</b> Click on Element : Successfully click on MotionDetection_Zone1

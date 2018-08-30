@@ -1,0 +1,10 @@
+[PASSED] :: 2017-08-30:18:24:46 :: <b>[PASS]</b> Click on Element : Successfully click on name:OK
+[PASSED] :: 2017-08-30:18:24:47 :: <b>[PASS]</b> Click on Element : Successfully click on name:Allow
+[PASSED] :: 2017-08-30:18:25:07 :: <b>[PASS]</b> Click on Element : Successfully click on xpath://XCUIElementTypeTextField[contains(@value,'https')]
+[PASSED] :: 2017-08-30:18:25:08 :: <b>[PASS]</b> Click on Element : Successfully click on name:Return
+[PASSED] :: 2017-08-30:18:25:09 :: <b>[PASS]</b> Click on Element : Successfully click on name:Chil Das(Test)
+[PASSED] :: 2017-08-30:18:25:10 :: <b>[PASS]</b> Click on Element : Successfully click on name:Done
+[PASSED] :: 2017-08-30:18:25:11 :: <b>[PASS]</b> Click on Element : Successfully click on LoginButton
+[PASSED] :: 2017-08-30:18:25:13 :: <b>[PASS]</b> Login To Lyric : Email Address set to - autotest2@grr.la
+[PASSED] :: 2017-08-30:18:25:15 :: <b>[PASS]</b> Login To Lyric : Password set to - Password1
+[PASSED] :: 2017-08-30:18:25:16 :: <b>[PASS]</b> Click on Element : Successfully click on NAME:Login_Button

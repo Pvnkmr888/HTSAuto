@@ -1,0 +1,21 @@
+[PASSED] :: 2017-08-30:19:55:41 :: <b>[PASS]</b> Click on Element : Successfully click on name:OK
+[PASSED] :: 2017-08-30:19:55:43 :: <b>[PASS]</b> Click on Element : Successfully click on name:Allow
+[PASSED] :: 2017-08-30:19:56:03 :: <b>[PASS]</b> Click on Element : Successfully click on xpath://XCUIElementTypeTextField[contains(@value,'https')]
+[PASSED] :: 2017-08-30:19:56:04 :: <b>[PASS]</b> Click on Element : Successfully click on name:Return
+[PASSED] :: 2017-08-30:19:56:06 :: <b>[PASS]</b> Click on Element : Successfully click on name:Chil Das(Test)
+[PASSED] :: 2017-08-30:19:56:06 :: <b>[PASS]</b> Click on Element : Successfully click on name:Done
+[PASSED] :: 2017-08-30:19:56:08 :: <b>[PASS]</b> Click on Element : Successfully click on LoginButton
+[PASSED] :: 2017-08-30:19:56:10 :: <b>[PASS]</b> Login To Lyric : Email Address set to - autotest2@grr.la
+[PASSED] :: 2017-08-30:19:56:12 :: <b>[PASS]</b> Login To Lyric : Password set to - Password1
+[PASSED] :: 2017-08-30:19:56:13 :: <b>[PASS]</b> Click on Element : Successfully click on NAME:Login_Button
+[PASSED] :: 2017-08-30:19:56:18 :: <b>[PASS]</b> Login to Lyric : Successfully navigated to HomeScreen
+[PASSED] :: 2017-08-30:19:56:25 :: <b>[PASS]</b> Click on Element : Successfully click on GlobalDrawerButton
+[PASSED] :: 2017-08-30:19:56:28 :: <b>[PASS]</b> Click on Element : Successfully click on name:My Apollo
+[PASSED] :: 2017-08-30:19:56:33 :: <b>[PASS]</b> swipe up to focus on Base station menu was successfull
+[PASSED] :: 2017-08-30:19:56:34 :: <b>[PASS]</b> Click on Element : Successfully click on BaseStation_Option
+[PASSED] :: 2017-08-30:19:56:35 :: <b>[PASS]</b> Click on Element : Successfully click on Base_StationCamera
+[PASSED] :: 2017-08-30:19:56:36 :: <b>[PASS]</b> Click on Element : Successfully click on MotionDetectionLabel
+[PASSED] :: 2017-08-30:19:56:36 :: <b>[PASS]</b> Tapped on Motion Detection
+[PASSED] :: 2017-08-30:19:56:47 :: <b>[PASS]</b> Click on Element : Successfully click on MotionDetection_Zone2
+[PASSED] :: 2017-08-30:19:57:58 :: <b>[PASS]</b> Close and Reopen App : Successfully forced close the app and reopen it
+[PASSED] :: 2017-08-30:19:57:58 :: <b>[PASS]</b> Close and Reopen App : Successful

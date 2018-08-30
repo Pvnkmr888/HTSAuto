@@ -1,0 +1,26 @@
+[PASSED] :: 2017-08-30:14:53:55 :: <b>[PASS]</b> Click on Element : Successfully click on name:OK
+[PASSED] :: 2017-08-30:14:53:56 :: <b>[PASS]</b> Click on Element : Successfully click on name:Allow
+[PASSED] :: 2017-08-30:14:54:16 :: <b>[PASS]</b> Click on Element : Successfully click on xpath://XCUIElementTypeTextField[contains(@value,'https')]
+[PASSED] :: 2017-08-30:14:54:18 :: <b>[PASS]</b> Click on Element : Successfully click on name:Return
+[PASSED] :: 2017-08-30:14:54:19 :: <b>[PASS]</b> Click on Element : Successfully click on name:Chil Das(Test)
+[PASSED] :: 2017-08-30:14:54:20 :: <b>[PASS]</b> Click on Element : Successfully click on name:Done
+[PASSED] :: 2017-08-30:14:54:21 :: <b>[PASS]</b> Click on Element : Successfully click on LoginButton
+[PASSED] :: 2017-08-30:14:54:23 :: <b>[PASS]</b> Login To Lyric : Email Address set to - autotest2@grr.la
+[PASSED] :: 2017-08-30:14:54:25 :: <b>[PASS]</b> Login To Lyric : Password set to - Password1
+[PASSED] :: 2017-08-30:14:54:26 :: <b>[PASS]</b> Click on Element : Successfully click on NAME:Login_Button
+[PASSED] :: 2017-08-30:14:54:33 :: <b>[PASS]</b> Login to Lyric : Successfully navigated to HomeScreen
+[PASSED] :: 2017-08-30:14:54:41 :: <b>[PASS]</b> Click on Element : Successfully click on GlobalDrawerButton
+[PASSED] :: 2017-08-30:14:54:43 :: <b>[PASS]</b> Click on Element : Successfully click on name:My Apollo
+[PASSED] :: 2017-08-30:14:54:48 :: <b>[PASS]</b> swipe up to focus on Base station menu was successfull
+[PASSED] :: 2017-08-30:14:54:49 :: <b>[PASS]</b> Click on Element : Successfully click on BaseStation_Option
+[PASSED] :: 2017-08-30:14:54:50 :: <b>[PASS]</b> Click on Element : Successfully click on Base_StationCamera
+[PASSED] :: 2017-08-30:14:54:52 :: <b>[PASS]</b> Click on Element : Successfully click on MotionDetectionLabel
+[PASSED] :: 2017-08-30:14:54:52 :: <b>[PASS]</b> Tapped on Motion Detection
+[PASSED] :: 2017-08-30:14:55:03 :: <b>[PASS]</b> Click on Element : Successfully click on MotionDetection_Zone1
+[PASSED] :: 2017-08-30:14:55:04 :: <b>[PASS]</b> ZONE1 selected
+[PASSED] :: 2017-08-30:14:55:06 :: <b>[PASS]</b> Click on Element : Successfully click on MotionDetection_Zone2
+[PASSED] :: 2017-08-30:14:55:06 :: <b>[PASS]</b> ZONE2 selected
+[PASSED] :: 2017-08-30:14:55:07 :: <b>[PASS]</b> Click on Element : Successfully click on MotionDetection_Zone3
+[PASSED] :: 2017-08-30:14:55:08 :: <b>[PASS]</b> ZONE3 selected
+[PASSED] :: 2017-08-30:14:55:09 :: <b>[PASS]</b> Click on Element : Successfully click on MotionDetection_Zone4
+[PASSED] :: 2017-08-30:14:55:10 :: <b>[PASS]</b> ZONE4 selected

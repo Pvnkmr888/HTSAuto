@@ -1,0 +1,3 @@
+Include Group,Group Name,Combine,Platform-Type-OS-Version,Name,Location,Environment,Test Data
+No,CreateSchedule,,IOS-Simulator-IOS-10.3.1,iPhone 6,Local,Dogfooding,"AcquisitionType=Automatic, Tags='LYRIC_STAT,SERVER_JASPER_DOGFOODING"
+,dasBasestationCameraSettingsAndMicrophone,,IOS-Simulator-IOS-10.3.1,iPhone 7,Local,Chil Das(Test),"AcquisitionType=Specific, TestData='USERID=testaccount@mailinator.com,PASSWORD=Password1,LOCATION1_NAME=Home,LOCATION1_DEVICE1_NAME=Security'"

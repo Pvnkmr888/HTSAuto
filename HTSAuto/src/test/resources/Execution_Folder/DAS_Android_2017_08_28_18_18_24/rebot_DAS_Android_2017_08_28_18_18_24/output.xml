@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><robot>
+<suite id="TS_Lyric_001" name="DAS_Android">
+<test name="motionDetection_verifyZonesSensitivityLevel">
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 18:18:40.150">&lt;b&gt;[FAIL]&lt;/b&gt; Launch Application : Error occured - A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.honeywell.android.lyric, fullReset=false, deviceName=8775bef9, platform=ANDROID, deviceUDID=8775bef9, desired={appPackage=com.honeywell.android.lyric, app=/Users/h242928/Desktop/Lyric41.apk, commandTimeout=300, appWaitActivity=, appWaitPackage=com.honeywell.android.lyric, version=, fullReset=false, deviceName=Samsung Galaxy S6, platform=ANDROID, appActivity=com.honeywell.granite.graniteui.presentation.activity.login.LoginActivity, autoLaunch=false, idleTimeout=1000, automationName=appium, name=motionDetection_verifyZonesSensitivityLevel, browserName=Samsung Galaxy S6 Device, platformName=Android}, platformVersion=6.0.1, webStorageEnabled=false, automationName=appium, takesScreenshot=true, browserName=Samsung Galaxy S6 Device, javascriptEnabled=true, platformName=Android, deviceManufacturer=OnePlus, app=/Users/h242928/Desktop/Lyric41.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, commandTimeout=300, appWaitActivity=, appWaitPackage=com.honeywell.android.lyric, databaseEnabled=false, version=, appActivity=com.honeywell.granite.graniteui.presentation.activity.login.LoginActivity, autoLaunch=false, idleTimeout=1000, locationContextEnabled=false, name=motionDetection_verifyZonesSensitivityLevel, deviceModel=ONE A2003}]
+Session ID: d02db79c-76f8-4a65-b612-0d350443842e</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:18:40.168">&lt;b&gt;[FAIL]&lt;/b&gt; Error Occured while launching application. Error message - Session [d02db79c-76f8-4a65-b612-0d350443842e] was terminated due to BROWSER_TIMEOUT
+</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:18:40.185">&lt;b&gt;[FAIL]&lt;/b&gt; Is Mobile Element Available : WebDriver Exception Occured - Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: AndroidDriver</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:18:40.186">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_18_18_25/#Error : null"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_18_18_25/#Error : null" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:18:40.287">&lt;b&gt;[FAIL]&lt;/b&gt; Get Mobile Element : LyricLogo', Unexpected Error occured - Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: AndroidDriver</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:18:40.287">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_18_18_25/#Error : null"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_18_18_25/#Error : null" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:18:40.289">&lt;b&gt;[FAIL]&lt;/b&gt; Get Mobile Element : HoneywellRosette', Unexpected Error occured - Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: AndroidDriver</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:18:40.289">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_18_18_25/#Error : null"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_18_18_25/#Error : null" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:18:40.291">&lt;b&gt;[FAIL]&lt;/b&gt; Set App Environment : Failed to open secret. Error Message : null</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:18:40.291">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_18_18_25/#Error : null"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_18_18_25/#Error : null" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:18:40.293">&lt;b&gt;[FAIL]&lt;/b&gt; Is Mobile Element Available : WebDriver Exception Occured - Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: AndroidDriver</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:18:40.293">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_28_18_18_25/#Error : null"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_28_18_18_25/#Error : null" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:18:40.294">&lt;b&gt;[FAIL]&lt;/b&gt; Is Mobile Element Available : WebDriver Exception Occured - Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.8.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: AndroidDriver</msg>
+<msg html="yes" level="INFO" timestamp="20170828 18:18:40.295">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Unable to navigate to homepage. Could not find notification icon on homepage</msg>
+<status critical="yes" endtime="20170828 18:18:40.295" starttime="20170828 18:18:25.185" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;Zone1&quot; is displayed &quot;Low Normal High&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170828 18:18:40.343">&lt;b&gt;[FAIL]&lt;/b&gt; Then  - 'verify &lt;Zones&gt; is displayed "Low Normal High"' is not Implemented.&lt;p&gt;Please Implement Keyword with following KeywordStep : &lt;p&gt;@KeywordStep("^verify (.*) is displayed (.*) Normal (.*)$")&lt;/p&gt;&lt;/p&gt;</msg>
+<status critical="yes" endtime="20170828 18:18:40.343" starttime="20170828 18:18:40.342" status="FAIL"/>
+</kw>
+<doc>Error Occured while launching application. Error message - Session [d02db79c-76f8-4a65-b612-0d350443842e] was terminated due to BROWSER_TIMEOUT
+</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170828 18:18:40.357" starttime="20170828 18:18:25.171" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170828 18:18:40.357" starttime="20170828 18:18:25.171" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<status critical="yes" endtime="20170828 18:18:40.598" starttime="20170828 18:18:40.556" status="FAIL"/>
+</suite>
+</robot>

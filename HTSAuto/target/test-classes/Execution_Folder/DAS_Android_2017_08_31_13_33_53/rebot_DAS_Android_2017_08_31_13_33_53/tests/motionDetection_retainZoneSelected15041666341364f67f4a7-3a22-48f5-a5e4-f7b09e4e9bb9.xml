@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><test name="motionDetection_retainZoneSelected">
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 13:35:18.963">&lt;b&gt;[FAIL]&lt;/b&gt; Set App Environment : Failed to open secret. Error Message : An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8.16 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.honeywell.android.lyric, fullReset=false, deviceName=8775bef9, platform=ANDROID, deviceUDID=8775bef9, desired={appPackage=com.honeywell.android.lyric, app=/Users/h242928/Desktop/Lyric41.apk, commandTimeout=300, appWaitActivity=, appWaitPackage=com.honeywell.android.lyric, version=, fullReset=false, deviceName=Samsung Galaxy S6, platform=ANDROID, appActivity=com.honeywell.granite.graniteui.presentation.activity.login.LoginActivity, autoLaunch=false, idleTimeout=1000, automationName=appium, name=motionDetection_retainZoneSelected, browserName=Samsung Galaxy S6 Device, platformName=Android}, platformVersion=6.0.1, webStorageEnabled=false, automationName=appium, takesScreenshot=true, browserName=Samsung Galaxy S6 Device, javascriptEnabled=true, platformName=Android, deviceManufacturer=OnePlus, app=/Users/h242928/Desktop/Lyric41.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, commandTimeout=300, appWaitActivity=, appWaitPackage=com.honeywell.android.lyric, databaseEnabled=false, version=, appActivity=com.honeywell.granite.graniteui.presentation.activity.login.LoginActivity, autoLaunch=false, idleTimeout=1000, locationContextEnabled=false, name=motionDetection_retainZoneSelected, deviceModel=ONE A2003}]
+Session ID: ca87f624-1838-4fda-81f5-b08e4164896d</msg>
+<msg html="yes" level="INFO" timestamp="20170831 13:35:18.965">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_31_13_33_54/screenshot7950477400900060393.png"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_31_13_33_54/screenshot7950477400900060393.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170831 13:35:25.922">&lt;b&gt;[FAIL]&lt;/b&gt; Is Mobile Element Available : WebDriver Exception Occured - Session [ca87f624-1838-4fda-81f5-b08e4164896d] was terminated due to FORWARDING_TO_NODE_FAILED
+</msg>
+<msg html="yes" level="INFO" timestamp="20170831 13:35:25.922">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_31_13_33_54/#Error : org.openqa.selenium.WebDriverException: Session [ca87f624-1838-4fda-81f5-b08e4164896d] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_31_13_33_54/#Error : org.openqa.selenium.WebDriverException: Session [ca87f624-1838-4fda-81f5-b08e4164896d] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<msg html="yes" level="INFO" timestamp="20170831 13:35:25.929">&lt;b&gt;[FAIL]&lt;/b&gt; Login To Lyric : Unable to navigate to homepage. Could not find notification icon on homepage</msg>
+<msg html="yes" level="INFO" timestamp="20170831 13:35:25.929">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_31_13_33_54/#Error : org.openqa.selenium.WebDriverException: Session [ca87f624-1838-4fda-81f5-b08e4164896d] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_31_13_33_54/#Error : org.openqa.selenium.WebDriverException: Session [ca87f624-1838-4fda-81f5-b08e4164896d] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<status critical="yes" endtime="20170831 13:35:25.930" starttime="20170831 13:33:54.226" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;ENABLE DETECTION ZONE&quot; is &quot;selected&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 13:35:26.005">&lt;b&gt;[FAIL]&lt;/b&gt; Get Mobile Element : EnabledDetectionZone', Unexpected Error occured - Session [ca87f624-1838-4fda-81f5-b08e4164896d] was terminated due to FORWARDING_TO_NODE_FAILED
+</msg>
+<msg html="yes" level="INFO" timestamp="20170831 13:35:26.005">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/h242928TESTCASENAME_2017_08_31_13_33_54/#Error : org.openqa.selenium.WebDriverException: Session [ca87f624-1838-4fda-81f5-b08e4164896d] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown"&gt;&lt;img src="../screenShots/h242928TESTCASENAME_2017_08_31_13_33_54/#Error : org.openqa.selenium.WebDriverException: Session [ca87f624-1838-4fda-81f5-b08e4164896d] was terminated due to FORWARDING_TO_NODE_FAILED
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IE3BMLN0001DF', ip: '10.77.15.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<kw name="Then  : verify &quot;ENABLE DETECTION ZONE&quot; is &quot;selected&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170831 13:35:26.005">&lt;b&gt;[FAIL]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'verify "ENABLE DETECTION ZONE" is "selected"'. Error Occured - null</msg>
+<status critical="yes" endtime="20170831 13:35:26.005" starttime="20170831 13:35:26.005" status="FAIL"/>
+</kw>
+</kw>
+<doc>Is Mobile Element Available : WebDriver Exception Occured - Session [ca87f624-1838-4fda-81f5-b08e4164896d] was terminated due to FORWARDING_TO_NODE_FAILED
+</doc>
+<tags>
+<tag>:: Not Executed ::</tag>
+</tags>
+<status critical="yes" endtime="20170831 13:35:26.020" starttime="20170831 13:33:54.209" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170831 13:35:26.021" starttime="20170831 13:33:54.209" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>

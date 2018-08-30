@@ -1,0 +1,11 @@
+Include Group	Group Name	Combine	Platform-Type-OS-Version	Name	Location	Environment	Test Data
+NO	DIYFlow		Android-Device-Android-5.0	Samsung Galaxy S5	Local	CHIL Das(QA)	"AcquisitionType=Specific, TestData='USERID=dastest@grr.la,PASSWORD=Password1,LOCATION1_NAME=No Location,LOCATION1_DEVICE1_NAME=No Device,ANDROID_UDID=ZY22392HXT'"
+NO	DasHomeSettings		Android-Device-Android-.*	.*	Perfecto	Chil Das(Test)	"AcquisitionType=Specific, TestData='USERID=dastest1qa@grr.la,PASSWORD=Password1,LOCATION1_NAME=7n2_8A1,LOCATION1_DEVICE1_NAME=Security'"
+NO	DasEntryExitSettings		Android-Device-Android-.*	.*	Perfecto	Chil Das(Test)	"AcquisitionType=Specific, TestData='USERID=dastest1qa@grr.la,PASSWORD=Password1,LOCATION1_NAME=7n2_8A1,LOCATION1_DEVICE1_NAME=Security'"
+NO	DasAwaySettings		Android-Device-Android-.*	.*	Perfecto	Chil Das(Test)	"AcquisitionType=Specific, TestData='USERID=dastest1qa@grr.la,PASSWORD=Password1,LOCATION1_NAME=7n2_8A1,LOCATION1_DEVICE1_NAME=Security'"
+NO	DasNightSettings		Android-Device-Android-.*	.*	Perfecto	Chil Das(Test)	"AcquisitionType=Specific, TestData='USERID=dastest1qa@grr.la,PASSWORD=Password1,LOCATION1_NAME=7n2_8A1,LOCATION1_DEVICE1_NAME=Security'"
+NO	dasBasestationRename		Android-Device-Android-.*	.*	Perfecto	Chil Das(Test)	"AcquisitionType=Specific, TestData='USERID=dastest1qa@grr.la,PASSWORD=Password1,LOCATION1_NAME=7n2_8A1,LOCATION1_DEVICE1_NAME=Security'"
+NO	dasBasestationCameraSettingsAndMicrophone		Android-Device-Android-.*	.*	Perfecto	Chil Das(Test)	"AcquisitionType=Specific, TestData='USERID=dastest1qa@grr.la,PASSWORD=Password1,LOCATION1_NAME=7n2_8A1,LOCATION1_DEVICE1_NAME=Security'"
+	CameraNightVision_Menu		Android-Device-Android-.*	.*	Perfecto	Chil Das(Test)	"AcquisitionType=Specific, TestData='USERID=dastest1qa@grr.la,PASSWORD=Password1,LOCATION1_NAME=7n2_8A1,LOCATION1_DEVICE1_NAME=Security'"
+	videoQualitySettingMenu		Android-Device-Android-.*	.*	Perfecto	Chil Das(Test)	"AcquisitionType=Specific, TestData='USERID=dastest1qa@grr.la,PASSWORD=Password1,LOCATION1_NAME=7n2_8A1,LOCATION1_DEVICE1_NAME=Security'"
+	CommandControl		Android-Device-Android-.*	.*	Perfecto	Chil Das(Test)	"AcquisitionType=Specific, TestData='USERID=dastest1qa@grr.la,PASSWORD=Password1,LOCATION1_NAME=7n2_8A1,LOCATION1_DEVICE1_NAME=Security'"

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><robot>
+<suite id="TS_Lyric_001" name="DAS_Android">
+<test name="As a user I want to verify that all Camera setting options">
+<kw name="Given  : user logs in to Lyric app" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 21:38:24.045">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:OK</msg>
+<msg html="yes" level="INFO" timestamp="20170824 21:38:26.038">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Allow</msg>
+<msg html="yes" level="INFO" timestamp="20170824 21:38:40.577">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on xpath://XCUIElementTypeTextField[contains(@value,'https')]</msg>
+<msg html="yes" level="INFO" timestamp="20170824 21:38:41.810">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Return</msg>
+<msg html="yes" level="INFO" timestamp="20170824 21:38:42.904">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Done</msg>
+<msg html="yes" level="INFO" timestamp="20170824 21:38:44.356">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on LoginButton</msg>
+<msg html="yes" level="INFO" timestamp="20170824 21:38:46.891">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Email Address set to - testaccount@mailinator.com</msg>
+<msg html="yes" level="INFO" timestamp="20170824 21:38:48.542">&lt;b&gt;[PASS]&lt;/b&gt; Login To Lyric : Password set to - Password1</msg>
+<msg html="yes" level="INFO" timestamp="20170824 21:38:49.525">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on NAME:Login_Button</msg>
+<msg html="yes" level="INFO" timestamp="20170824 21:38:54.535">&lt;b&gt;[PASS]&lt;/b&gt; Login to Lyric : Successfully navigated to HomeScreen</msg>
+<status critical="yes" endtime="20170824 21:38:54.535" starttime="20170824 21:37:54.312" status="PASS"/>
+</kw>
+<kw name="When  : user clicks on &quot;HAMBURGER MENU&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 21:38:55.413">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on GlobalDrawerButton</msg>
+<status critical="yes" endtime="20170824 21:38:55.413" starttime="20170824 21:38:54.565" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;DAS DEVICE&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 21:38:57.724">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on name:Security</msg>
+<status critical="yes" endtime="20170824 21:38:57.724" starttime="20170824 21:38:55.415" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;BASE STATION SETTINGS&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 21:39:03.180">&lt;b&gt;[PASS]&lt;/b&gt; swipe up to focus on Base station menu was successfull</msg>
+<msg html="yes" level="INFO" timestamp="20170824 21:39:04.102">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on BaseStation_Option</msg>
+<status critical="yes" endtime="20170824 21:39:04.102" starttime="20170824 21:38:57.727" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;CAMERA SETTINGS&quot; menu" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 21:39:05.077">&lt;b&gt;[PASS]&lt;/b&gt; Click on Element : Successfully click on Base_StationCamera</msg>
+<status critical="yes" endtime="20170824 21:39:05.077" starttime="20170824 21:39:04.104" status="PASS"/>
+</kw>
+<kw name="Then  : verify the display of following:" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 21:39:06.035">&lt;b&gt;[PASS]&lt;/b&gt; MOTION DETECTION is displayed</msg>
+<msg html="yes" level="INFO" timestamp="20170824 21:39:06.313">&lt;b&gt;[PASS]&lt;/b&gt; MICRO PHONE is displayed</msg>
+<msg html="yes" level="INFO" timestamp="20170824 21:39:06.597">&lt;b&gt;[PASS]&lt;/b&gt; NIGHT VISION is displayed</msg>
+<msg html="yes" level="INFO" timestamp="20170824 21:39:06.890">&lt;b&gt;[PASS]&lt;/b&gt; VIDEO QUALITY is displayed</msg>
+<status critical="yes" endtime="20170824 21:39:06.890" starttime="20170824 21:39:05.081" status="PASS"/>
+</kw>
+<kw name="When  : user enables &quot;CAMERA MICROPHONE&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 21:39:07.732">&lt;b&gt;[PASS]&lt;/b&gt; CAMERA MICROPHONE enabled already</msg>
+<status critical="yes" endtime="20170824 21:39:07.732" starttime="20170824 21:39:06.893" status="PASS"/>
+</kw>
+<kw name="Then  : verify &quot;CAMERA MICROPHONE&quot; is enabled" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 21:39:08.395">&lt;b&gt;[FAIL]&lt;/b&gt; exception occured java.lang.Boolean cannot be cast to java.lang.String</msg>
+<msg html="yes" level="INFO" timestamp="20170824 21:39:08.395">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenShots/vijaydeepakTESTCASENAME_2017_08_24_21_37_54/screenshot6295576805244264485.png"&gt;&lt;img src="../screenShots/vijaydeepakTESTCASENAME_2017_08_24_21_37_54/screenshot6295576805244264485.png" height="450px" width="270px"&gt;&lt;/a&gt;</msg>
+<status critical="yes" endtime="20170824 21:39:08.396" starttime="20170824 21:39:07.735" status="FAIL"/>
+</kw>
+<kw name="Then  : verify &quot;CAMERA MICROPHONE&quot; is disabled" type="kw">
+<msg html="yes" level="INFO" timestamp="20170824 21:39:08.401">&lt;b&gt;[FAIL]&lt;/b&gt; Scenario steps failed already, hence skipping the verification</msg>
+<status critical="yes" endtime="20170824 21:39:08.401" starttime="20170824 21:39:08.401" status="FAIL"/>
+</kw>
+<tags>
+<tag>TestName::As a user I want to verify that all Camera setting options</tag>
+<tag>Group::dasBasestationCameraSettingsAndMicrophone</tag>
+<tag>SolutionCategory::LyricRefactor</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::c85d7cb996a05d26abb89c93df86d62af5486f1f</tag>
+<tag>DeviceSize::IOS_Medium</tag>
+<tag>OperatingSystem::IOS-10.3.3</tag>
+<tag>CloudEnvironment::Chil Das(Test)</tag>
+<tag>AccessoryName::testaccount@mailinator.com</tag>
+<tag>BuildNumber:: IOS - 4</tag>
+<tag>TestReportURL::http://10.79.42.121:8080/results/DAS_Android_2017_08_24_21_37_53/rebot/report.html#tags?Group::As a user I want to verify that all Camera setting options</tag>
+</tags>
+<status critical="yes" endtime="20170824 21:39:08.405" starttime="20170824 21:37:54.297" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20170824 21:39:08.405" starttime="20170824 21:37:54.297" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;uicoreframeworkwithbdd_dev - 4.8.1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<status critical="yes" endtime="20170824 21:39:09.068" starttime="20170824 21:39:09.035" status="FAIL"/>
+</suite>
+</robot>

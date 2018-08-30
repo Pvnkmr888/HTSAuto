@@ -1,0 +1,12 @@
+[PASSED] :: 2017-08-24:17:41:17 :: <b>[PASS]</b> Base station is set to home
+[PASSED] :: 2017-08-24:17:41:47 :: <b>[PASS]</b> Click on Element : Successfully click on name:OK
+[PASSED] :: 2017-08-24:17:41:49 :: <b>[PASS]</b> Click on Element : Successfully click on name:Allow
+[PASSED] :: 2017-08-24:17:42:19 :: <b>[PASS]</b> Click on Element : Successfully click on NAME:Done
+[PASSED] :: 2017-08-24:17:42:21 :: <b>[PASS]</b> Click on Element : Successfully click on LoginButton
+[PASSED] :: 2017-08-24:17:42:26 :: <b>[PASS]</b> Login To Lyric : Email Address set to - testaccount@mailinator.com
+[PASSED] :: 2017-08-24:17:42:27 :: <b>[PASS]</b> Login To Lyric : Password set to - Password1
+[PASSED] :: 2017-08-24:17:42:28 :: <b>[PASS]</b> Click on Element : Successfully click on NAME:Login_Button
+[PASSED] :: 2017-08-24:17:42:34 :: <b>[PASS]</b> Login to Lyric : Successfully navigated to HomeScreen
+[PASSED] :: 2017-08-24:17:42:35 :: <b>[PASS]</b> Click on Element : Successfully click on GlobalDrawerButton
+[PASSED] :: 2017-08-24:17:42:37 :: <b>[PASS]</b> Click on Element : Successfully click on name:Security
+[PASSED] :: 2017-08-24:17:42:43 :: <b>[PASS]</b> swipe up to focus on Base station menu was successfull
